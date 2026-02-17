@@ -1,0 +1,123 @@
+MEENAKSHI OJHA
+Software Development Engineer 3 | Senior Frontend Developer | Scrum Master
+
+Phone: +91 9654354118  
+Email: meenakshiojhabook@gmail.com  
+LinkedIn: linkedin.com/in/meenakshi-ojha  
+GitHub: https://github.com/meenakshi-ojha  
+
+PROFESSIONAL SUMMARY
+
+Experienced Frontend Developer and Scrum Master with 5 years of expertise in React, Redux, and microfrontend architectures. Proven track record in delivering high-impact banking applications with strong focus on quality standards, test-driven development (TDD), and Agile methodologies.
+
+Key Achievements:
+- Built scalable frontend applications serving thousands of users with 99%+ uptime
+- Increased development efficiency by 40% through reusable component architecture
+- Improved code quality metrics: 75% test coverage, 50% reduction in bugs through comprehensive testing
+- Successfully mentored 5+ junior engineers in React.js and frontend best practices
+- Led technical design and implementation of multiple large-scale frontend projects
+
+TECHNICAL SKILLS
+
+Core Technologies: JavaScript (ES6+) • HTML5 • CSS3 • Tailwind CSS • React.js • React Hooks
+
+Frontend Frameworks: React Redux • Redux-Saga • Redux-Thunk • Redux Toolkit
+
+Testing & Quality: Jest • Enzyme • React Testing Library • Cypress • Test-Driven Development (TDD) • SONAR • ESLint • Prettier • Code Quality Analysis
+
+Development Tools: npm • yarn • Git • GitLab • Webpack • Babel • Storybook • Chromatic • Figma • Kubernetes • Docker • CI/CD
+
+Methodologies: Agile • Scrum • Scrum Master • Sprint Planning • Daily Standups • Sprint Retrospectives • Microfrontend Architecture • Component-Driven Development
+
+PROFESSIONAL EXPERIENCE
+
+SBS (previously Sopra Banking Software) — Noida, Uttar Pradesh
+Software Development Engineer 3 | Senior Software Development Engineer 1 | Scrum Master  
+October 2020 – Present
+
+Technical Leadership & Project Delivery:
+- Led technical design and implementation of multiple large-scale frontend projects from conception to production deployment
+- Built high-performing client code using React.js, TypeScript, and modern JavaScript (ES6+) serving 10,000+ concurrent users
+- Drove strong collaboration with product managers, UX designers, and backend engineers to understand user pain points and deliver optimal solutions
+- Implemented comprehensive testing strategy using Jest, Enzyme, and React Testing Library, achieving 80%+ code coverage
+
+Code Quality & Engineering Excellence:
+- Contributed to rigorous code reviews and maintained technical documentation for 20+ team members
+- Took on complex bug fixes and performance optimizations, reducing application load time by 40%
+- Developed scalable component architecture with 20+ reusable React components, improving development velocity across teams
+- Implemented modern frontend ecosystem tools including Webpack bundling, ESLint configuration, and automated testing pipelines
+
+Team Leadership & Mentoring:
+- Served as Scrum Master facilitating sprint planning, daily standups, sprint reviews, and retrospectives for cross-functional team
+- Onboarded and mentored 5+ junior engineers in React.js, JavaScript best practices, and frontend architecture patterns
+- Led Agile software development practices resulting in 25% improvement in sprint velocity and delivery predictability
+
+System Architecture & Scalability:
+- Engineered microfrontend solutions using Yarn workspaces, improving code maintainability and enabling independent team deployments
+- Built frontend applications at scale with focus on performance, accessibility, and cross-browser compatibility
+- Implemented CI/CD pipelines with automated testing, linting, and deployment processes
+
+KEY PROJECTS
+
+Digital Banking System – Community Frontend
+Technologies: React.js, Redux, TypeScript, Tailwind CSS  
+Scale: 10,000+ daily active users
+
+- Built and maintained a social banking community platform with real-time features and complex state management
+- Implemented user engagement features that boosted platform satisfaction metrics
+- Developed responsive UI components ensuring cross-browser compatibility
+- Integrated with backend APIs using Redux-Thunk for seamless data flow
+
+React Component Library
+Technologies: React.js, TypeScript, Storybook, Tailwind CSS  
+Scale: Used across 5+ applications, 15+ developers
+
+- Developed 20+ configurable and reusable components for the product portfolio
+- Utilized Storybook for component documentation and stakeholder communication
+- Enhanced design consistency and development efficiency across multiple applications
+- Implemented automated testing and documentation for component library
+
+Banking Onboarding Application Frontend
+Technologies: React.js, Redux-Thunk, JavaScript, CSS3  
+Scale: Multi-step workflow handling 1000+ daily registrations
+
+- Led frontend development of comprehensive banking onboarding application
+- Ensured seamless integration with backend services through Redux-Thunk
+- Implemented form validation and multi-step user flows
+- Optimized user experience resulting in improved conversion rates
+
+Daily Banking Microfrontend Application
+Technologies: React.js, Yarn Workspaces, JavaScript, Figma  
+Scale: Distributed teams, independent deployments
+
+- Developed microfrontend project using Yarn workspaces architecture
+- Created JSON-driven screens using adapters providing 80% client configurability
+- Reskinned application screens using Figma designs, HTML, CSS, and JavaScript
+- Enhanced UI/UX resulting in increased user engagement and satisfaction
+
+Banking Backoffice Management System
+Technologies: React.js, Redux, JavaScript, Jest  
+Scale: Administrative interface for banking operations
+
+- Developed administrative interface for banking operations management
+- Implemented complex data tables and filtering systems
+- Created audit logging and reporting features
+- Ensured high performance with large datasets
+
+EDUCATION
+
+Bachelor of Technology – Computer Science Engineering  
+Dr. APJ Abdul Kalam Technical University  
+August 2016 – September 2020
+
+ADDITIONAL QUALIFICATIONS
+
+Languages: English (Fluent), Hindi (Native)
+
+Core Competencies:
+- Leadership and Team Collaboration
+- Problem-Solving and Logical Reasoning
+- Agile Methodology and Project Management
+- Client Communication and Stakeholder Management
+
+Professional Interests: Competitive Programming, Open Source Contributions, Technical Writing, Chess

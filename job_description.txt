@@ -1,0 +1,41 @@
+PASTE YOUR JOB DESCRIPTION HERE
+
+Instructions:
+1. Copy the complete job description from the job posting
+2. Paste it below this line (replace this text)
+3. Save the file
+4. Run: node resume_tailor.js
+
+---
+Tesla
+Frontend Software Engineer 
+
+Responsibilities
+
+About the job
+Position Description
+You will be working with fellow software engineers focused on building out Tesla's internal tools that facilitate process management of the design, permitting, and installation of energy products and systems. This team is focused on building a stable and scalable platform that can be extended and configured for all Tesla Energy and Vehicle products that are sold and supported today, and any that will be introduced in the future. The goal of this role and team is to enable our internal employees with ways to track, standardize, automate, and ultimately optimize all steps taken on an energy installation job from start to finish.
+
+Responsibilities
+
+Design, develop and support applications and systems under the team’s scope
+Write clean, maintainable, performant, and well-tested code to implement new features and fix bugs
+Write unit tests, integration tests, and work with QA to coordinate timely regression for new features
+Monitor live system metrics, respond to alerts, and troubleshoot production issues
+Investigate and understand existing system technical functionality and propose technical improvements
+Collaborate with Product, Design, and Business stakeholders to plan and prioritize new feature development
+Communicate changes in project estimates, dependencies, and blockers with affected stakeholders quickly
+Own feature development and projects through design, development, testing, and release to production
+Understand and improve the scalability, maintainability, availability, and visibility of applications
+Document newly implemented technologies and application functionality
+
+
+Requirements
+
+Degree in Computer Science or related field, or equivalent experience
+Solid understanding of fundamental web technologies such as HTTP, REST, AJAX and JSON. Strong proficiency in HTML, CSS and JavaScript / ES6, including DOM manipulation and the JS object model
+Solid understanding of database principles, particularly how to query and update SQL databases
+Thorough understanding of REST principles and best practices of building and using RESTful APIs
+Thorough understanding of core design principles and common design patterns of Angular
+Experience with common front-end development tools such as Vite, NPM, Yarn, etc.
+Experience with GraphQL is a big plus

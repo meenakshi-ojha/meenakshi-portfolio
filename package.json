@@ -1,0 +1,35 @@
+{
+  "name": "meenakshi-portfolio",
+  "version": "1.0.0",
+  "description": "Senior Frontend Engineer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Meenakshi Ojha",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource/inter": "^5.2.8",
+    "@mui/icons-material": "^7.3.8",
+    "@mui/lab": "^7.0.1-beta.22",
+    "@mui/material": "^7.3.8",
+    "@react-pdf/renderer": "^4.3.2",
+    "@types/html2pdf.js": "^0.10.0",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "gray-matter": "^4.0.3",
+    "html2pdf.js": "^0.14.0",
+    "next": "^16.1.6",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3"
+  }
+}
