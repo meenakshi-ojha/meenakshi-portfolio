@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Server-Side Rendered Community Platform",
     description: "Learn how I enhanced SSR performance achieving 55% faster load times and improved SEO metrics for a community platform.",
     type: "article",
-    url: "https://meenakshi.dev/projects/ssr-platform",
+    url: "https://meenakshi-portfolio-five.vercel.app/projects/ssr-platform",
   },
 };
 

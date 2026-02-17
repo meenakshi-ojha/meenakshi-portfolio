@@ -21,7 +21,7 @@ export default function ResumePage() {
             Senior Frontend Engineer | React | Microfrontends | Scrum Master
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Email: meenakshiojhabook@gmail.com | Phone: +91 9654354118 | LinkedIn: linkedin.com/in/meenakshi-ojha | GitHub: github.com/meenakshi-ojha | Portfolio: meenakshi.dev
+            Email: meenakshiojhabook@gmail.com | Phone: +91 9654354118 | LinkedIn: linkedin.com/in/meenakshi-ojha | GitHub: github.com/meenakshi-ojha | Portfolio: meenakshi-portfolio-five.vercel.app
           </Typography>
         </Box>
 

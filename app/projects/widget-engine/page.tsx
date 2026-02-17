@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Dynamic UI Widget Engine Framework",
     description: "Learn how I architected a JSON-driven UI framework enabling scalable, configuration-based rendering.",
     type: "article",
-    url: "https://meenakshi.dev/projects/widget-engine",
+    url: "https://meenakshi-portfolio-five.vercel.app/projects/widget-engine",
   },
 };
 

@@ -5,7 +5,7 @@ export const resumeData = {
   phone: "+91 9654354118",
   linkedin: "linkedin.com/in/meenakshi-ojha",
   github: "github.com/meenakshi-ojha",
-  portfolio: "meenakshi.dev",
+  portfolio: "meenakshi-portfolio-five.vercel.app",
 
   summary:
     "Senior Frontend Engineer with 5.5+ years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Proven track record of technical leadership, mentoring 10+ junior developers, and driving code quality initiatives (80%+ test coverage). Acting Scrum Master managing cross-functional teams of 20+ engineers, removing blockers, and improving sprint velocity by 25%. Strong focus on performance optimization, accessibility, and test-driven development.",

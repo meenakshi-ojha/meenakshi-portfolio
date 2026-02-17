@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Projects - Meenakshi Ojha",
     description: "Featured projects including Widget Engine Framework, Design System, Microfrontend Platform, and SSR Platform.",
     type: "website",
-    url: "https://meenakshi.dev/projects",
+    url: "https://meenakshi-portfolio-five.vercel.app/projects",
   },
 };
 
