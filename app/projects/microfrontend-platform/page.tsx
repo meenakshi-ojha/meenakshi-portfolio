@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Microfrontend Banking Platform",
     description: "Learn how I enabled 20+ independent teams to deploy simultaneously with zero merge conflicts using microfrontend architecture.",
     type: "article",
-    url: "https://meenakshi.dev/projects/microfrontend-platform",
+    url: "https://meenakshi-portfolio-five.vercel.app/projects/microfrontend-platform",
   },
 };
 

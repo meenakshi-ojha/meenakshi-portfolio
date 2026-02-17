@@ -1,4 +1,5 @@
 import { Box, Button, Container, Typography, Stack } from "@mui/material";
+import { Download as DownloadIcon } from "@mui/icons-material";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         }}
       >
         <Typography variant="h3" gutterBottom>
-          Hi, I'm Meenakshi Ojha 👋
+          Hi, I'm Meenakshi Ojha
         </Typography>
 
         <Typography variant="h5" color="primary" gutterBottom>
@@ -26,18 +27,18 @@ export default function Home() {
         </Typography>
 
         <Stack direction="row" spacing={2} sx={{ mt: 4, flexWrap: "wrap" }}>
-          <Button variant="contained" href="/experience">
+          <Button variant="contained" href="/resume" startIcon={<DownloadIcon />} >
+            Download Resume
+          </Button>
+          <Button variant="outlined" href="/experience">
             View Experience
           </Button>
           <Button variant="outlined" href="/projects">
             View Projects
           </Button>
-          <Button variant="outlined" href="/resume">
-            Download Resume
-          </Button>
-          <Button variant="text" href="/blog">
+          {/* <Button variant="text" href="/blog">
             Read Blog
-          </Button>
+          </Button> */}
         </Stack>
       </Box>
     </Container>

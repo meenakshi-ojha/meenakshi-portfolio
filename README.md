@@ -3,7 +3,7 @@
 Personal portfolio website showcasing my experience, architecture case studies, and downloadable ATS-friendly resume.
 
 ## 🌐 Live
-meenakshi.dev (to be added after deployment)
+meenakshi-portfolio-five.vercel.app (to be added after deployment)
 
 ## 👩‍💻 About Me
 Senior Frontend Engineer with 5.5+ years of experience building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. I focus on performance, accessibility, test-driven development, and high-quality UI architecture.

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Enterprise Design System & Component Library",
     description: "Learn how I engineered a design system adopted across multiple product teams with 50+ production-ready components.",
     type: "article",
-    url: "https://meenakshi.dev/projects/design-system",
+    url: "https://meenakshi-portfolio-five.vercel.app/projects/design-system",
   },
 };
 

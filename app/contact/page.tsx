@@ -29,8 +29,8 @@ const contactLinks = [
   {
     icon: LanguageIcon,
     label: "Portfolio",
-    value: "meenakshi.dev",
-    href: "https://meenakshi.dev",
+    value: "meenakshi-portfolio-five.vercel.app",
+    href: "https://meenakshi-portfolio-five.vercel.app",
     color: "#4F46E5",
   },
 ];
