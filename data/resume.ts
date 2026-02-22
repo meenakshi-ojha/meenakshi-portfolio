@@ -1,3 +1,21 @@
+const calculateExperience = () => {
+  const startDate = new Date(2020, 9, 1); // October 2020
+  const today = new Date();
+  
+  let years = today.getFullYear() - startDate.getFullYear();
+  let months = today.getMonth() - startDate.getMonth();
+  
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  
+  if (months === 0) {
+    return `${years}+`;
+  }
+  return `${years}.${months}+`;
+};
+
 export const resumeData = {
   name: "MEENAKSHI OJHA",
   title: "Senior Frontend Engineer | React | Microfrontends | Scrum Master",
@@ -8,7 +26,7 @@ export const resumeData = {
   portfolio: "meenakshi-portfolio-five.vercel.app",
 
   summary:
-    "Senior Frontend Engineer with 5.5+ years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Proven track record of technical leadership, mentoring 10+ junior developers, and driving code quality initiatives (80%+ test coverage). Acting Scrum Master managing cross-functional teams of 20+ engineers, removing blockers, and improving sprint velocity by 25%. Strong focus on performance optimization, accessibility, and test-driven development.",
+    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Proven track record of technical leadership, mentoring multiple junior developers across teams, and driving code quality initiatives (80%+ test coverage). Acting Scrum Master managing cross-functional teams of 20+ engineers, removing blockers, and improving sprint predictability and on-time sprint goal completion. Strong focus on performance optimization, accessibility, and test-driven development.`,
 
   skills: {
     frontend: "React, TypeScript, JavaScript (ES6+), React Hooks, HTML5, CSS3, Tailwind CSS, Redux, Redux-Saga, Redux-Thunk",
@@ -25,11 +43,11 @@ export const resumeData = {
       startDate: "Jan 2025",
       endDate: "Present",
       highlights: [
-        "Architected widget engine framework using TypeScript and Vite enabling 40% code reuse and independent team deployments across 20+ engineers",
-        "Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed 12+ blockers improving sprint velocity by 25% and sprint goal achievement to 92%",
-        "Mentored 5+ developers on modern tooling (Vite, Vitest, TypeScript), performance optimization reducing First Contentful Paint by 40%",
+        "Architected widget engine framework using TypeScript and Vite enabling significant code reuse and independent team deployments across multiple product modules",
+        "Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed blockers and improved sprint predictability and sprint goal achievement",
+        "Mentored multiple developers on modern tooling (Vite, Vitest, TypeScript) and performance optimization techniques",
         "Implemented CI/CD pipelines with automated testing and SonarQube integration; drove quality advocacy achieving 85%+ test coverage targets",
-        "Designed authentication library with 99.9%+ availability across all banking applications; led architectural reviews with product and infrastructure teams",
+        "Designed robust authentication library used across banking applications; led architectural reviews with product and infrastructure teams",
       ],
     },
     {
@@ -40,8 +58,8 @@ export const resumeData = {
       endDate: "Dec 2024",
       highlights: [
         "Led frontend architecture for backoffice and onboarding systems handling 1000+ daily registrations with 20+ developers; owned subsystem design decisions",
-        "Drove quality initiatives increasing code coverage from 10% to 80%+, reducing bugs by 50%, and enforcing code duplication below 0.5% through systematic refactoring",
-        "Mentored 3+ junior developers on advanced patterns (custom hooks, performance profiling); improved sprint estimation accuracy by 20%",
+        "Drove quality initiatives significantly increasing code coverage, substantially reducing bugs, and enforcing code duplication standards through systematic refactoring",
+        "Mentored junior developers on advanced patterns (custom hooks, performance profiling); improved sprint estimation accuracy",
         "Resolved 6+ cross-team integration blockers with backend teams; aligned with UX on design-to-code handoff processes improving delivery velocity",
         "Integrated Monaco Editor, Mock Service Worker, and Helmet; used custom Webpack configurations for optimized production builds",
       ],
@@ -53,10 +71,10 @@ export const resumeData = {
       startDate: "Oct 2020",
       endDate: "Dec 2022",
       highlights: [
-        "Developed 20+ reusable React components for component library with 100+ Jest tests; improved development efficiency across 5+ teams by 40%",
-        "Built server-side rendered social platform (4 major versions) with Razzle and Redux-Saga; increased unit coverage from 10% to 75%, reducing bugs by 50%",
+        "Developed 20+ reusable React components for component library with 100+ Jest tests; improved development efficiency across multiple teams through component reuse",
+        "Built server-side rendered social platform (4 major versions) with Razzle and Redux-Saga; substantially increased unit test coverage and substantially reduced recurring production bugs",
         "Implemented comprehensive E2E testing with Cypress, i18n support with PhraseApp, and SONAR analysis driving code quality improvements",
-        "Mentored 2+ developers on testing strategies and SSR best practices; resolved 8+ integration blockers and facilitated sprint planning sessions",
+        "Mentored junior developers on testing strategies and SSR best practices; resolved 8+ integration blockers and facilitated sprint planning sessions",
         "Established quality gates and code review standards across teams, improving overall testing culture and technical debt management",
       ],
     },

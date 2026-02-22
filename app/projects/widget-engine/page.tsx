@@ -55,9 +55,9 @@ export default function WidgetEnginePage() {
           <ul>
             <li>Architected the plugin registration system and type-safe configuration schema using Zod</li>
             <li>Designed the provider pattern for flexible data source injection (APIs, mock data, real-time streams)</li>
-            <li>Built the initial showcase application demonstrating 20+ common widget patterns</li>
-            <li>Mentored 4 junior developers on the architecture, testing strategies, and performance optimization</li>
-            <li>Drove quality standards with Vitest achieving 70%+ coverage thresholds</li>
+            <li>Built the initial showcase application demonstrating common widget patterns</li>
+            <li>Mentored team members on the architecture, testing strategies, and performance optimization</li>
+            <li>Established quality standards with Vitest achieving 65%+ coverage thresholds</li>
           </ul>
           <p>
             <strong>Cross-team Leadership:</strong> Collaborated with product managers and architects to ensure the framework solved real business needs while remaining extensible for future use cases.
@@ -108,12 +108,12 @@ export default function WidgetEnginePage() {
       content: (
         <>
           <ul>
-            <li><strong>40% Code Reuse:</strong> Eliminated duplicate UI patterns across 20+ applications</li>
-            <li><strong>Independent Deployments:</strong> Teams no longer blocked on core engine changes; average deployment time reduced from 2 hours to 15 minutes</li>
-            <li><strong>Development Velocity:</strong> Average feature implementation time reduced by 35% through declarative UI composition</li>
-            <li><strong>Testing Efficiency:</strong> Widget engine tests cover 70%+ of engine codebase, reducing integration bugs by 60%</li>
-            <li><strong>Developer Onboarding:</strong> New team members productive within 2 days (vs. 2 weeks previously)</li>
-            <li><strong>Maintainability:</strong> Centralized widget definitions reduced maintenance overhead by 50%</li>
+            <li><strong>Unified Widget Layer:</strong> Standardized widget composition across multiple applications through JSON-driven configuration</li>
+            <li><strong>Team Autonomy:</strong> Feature teams deploy widgets independently without coordinating through core engine changes</li>
+            <li><strong>Accelerated Development:</strong> Declarative UI composition and reusable widget patterns reduced feature integration complexity</li>
+            <li><strong>Quality & Reliability:</strong> Comprehensive test coverage with type-safe validation caught integration issues early in the development cycle</li>
+            <li><strong>Faster Ramp-Up:</strong> New developers on-boarded to widget engine patterns faster through clear abstraction and documentation</li>
+            <li><strong>Simplified Maintenance:</strong> Centralized widget definitions provided single source of truth, reducing scattered UI logic across teams</li>
           </ul>
         </>
       ),
@@ -126,16 +126,16 @@ export default function WidgetEnginePage() {
             <strong>Plugin Systems Scale:</strong> A well-designed plugin architecture with clear extension points enables thousands of implementations without impacting core stability.
           </p>
           <p>
-            <strong>Type Safety Pays Dividends:</strong> The upfront investment in TypeScript and Zod validation prevented 40+ bugs that would have required production hotfixes.
+            <strong>Type Safety Pays Dividends:</strong> TypeScript and Zod validation caught errors at compile-time and runtime, reducing bugs in consuming applications.
           </p>
           <p>
             <strong>Provider Patterns for Flexibility:</strong> By making data sources pluggable, the engine works equally well for static configs, REST APIs, GraphQL, or real-time subscriptions.
           </p>
           <p>
-            <strong>Documentation Matters:</strong> A comprehensive showcase application and architecture decision record increased adoption rate 3x versus text-only documentation.
+            <strong>Documentation Matters:</strong> A comprehensive showcase application and architecture documentation significantly increased adoption across teams.
           </p>
           <p>
-            <strong>Performance Requires Discipline:</strong> React 19's compiler helped, but intentional memoization strategies and bundling optimization were critical for sub-200ms widget render times at scale.
+            <strong>Performance Requires Discipline:</strong> React 19's compiler helped, but intentional memoization strategies and bundling optimization were critical for efficient widget render times at scale.
           </p>
         </>
       ),
@@ -145,14 +145,14 @@ export default function WidgetEnginePage() {
   return (
     <CaseStudyLayout
       title="Dynamic UI Widget Engine Framework"
-      subtitle="Architected a JSON-driven UI framework enabling scalable, configuration-based rendering across 20+ teams"
+      subtitle="Architected a JSON-driven UI framework enabling configuration-based rendering and team autonomy"
       techStack={["TypeScript", "React 19", "Vite", "Zod", "Mantine UI", "Vitest", "Storybook"]}
       impactStatements={[
-        "40% code reuse across multiple applications",
-        "Independent team deployments without core dependencies",
-        "35% faster feature development through declarative composition",
-        "70%+ test coverage with Vitest",
-        "50% reduction in UI maintenance overhead",
+        "Unified widget abstraction across multiple product teams",
+        "Enabled independent deployments without engine coupling",
+        "Accelerated feature delivery through declarative UI patterns",
+        "Improved reliability through type-safe configuration validation",
+        "Streamlined maintenance with centralized widget definitions",
       ]}
       sections={sections}
       nextProject={{

@@ -16,11 +16,15 @@ export default function RootLayout({
         <title>Meenakshi Ojha - Frontend Engineer</title>
         <meta name="description" content="Senior Frontend Engineer Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>{`
+          body { margin: 0; padding: 0; box-sizing: border-box; }
+          *, *:before, *:after { box-sizing: inherit; }
+        `}</style>
       </head>
-      <body>
+      <body style={{ margin: 0, padding: 0, minHeight: '100vh', width: '100vw', overflowX: 'hidden' }}>
         <Providers>
           <Navbar />
-          {children}
+          <main style={{ minHeight: '100vh', width: '100%', display: 'block', paddingTop: '60px' }}>{children}</main>
         </Providers>
       </body>
     </html>

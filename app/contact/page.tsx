@@ -37,17 +37,17 @@ const contactLinks = [
 
 export default function ContactPage() {
   return (
-    <Container maxWidth="md" sx={{ py: 12 }}>
-      <Box sx={{ mb: 8, textAlign: "center" }}>
-        <Typography variant="h3" sx={{ fontWeight: 700, mb: 2 }}>
+    <Container maxWidth="md" sx={{ py: { xs: 6, sm: 12 }, px: { xs: 1, sm: 2, md: 3 } }}>
+      <Box sx={{ mb: { xs: 4, sm: 8 }, textAlign: "center" }}>
+        <Typography variant="h3" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: "1.8rem", sm: "2.2rem", md: "2.5rem" } }}>
           Let's Connect
         </Typography>
-        <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 450, mx: "auto", lineHeight: 1.8 }}>
+        <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 450, mx: "auto", lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}>
           Open to discussing frontend architecture, microfrontends, leadership opportunities, or just chatting about React and TypeScript.
         </Typography>
       </Box>
 
-      <Stack spacing={3}>
+      <Stack spacing={ { xs: 2, sm: 3 } }>
         {contactLinks.map((link) => {
           const IconComponent = link.icon;
           return (
@@ -59,7 +59,7 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{
-                p: 3,
+                p: { xs: 2, sm: 3 },
                 backgroundColor: "background.paper",
                 textDecoration: "none",
                 transition: "all 0.3s ease",
@@ -67,11 +67,12 @@ export default function ContactPage() {
                 border: "1px solid",
                 borderColor: "divider",
                 display: "flex",
-                alignItems: "center",
-                gap: 3,
+                flexDirection: { xs: "column", sm: "row" },
+                alignItems: { xs: "flex-start", sm: "center" },
+                gap: { xs: 2, sm: 3 },
                 "&:hover": {
                   borderColor: "primary.main",
-                  transform: "translateX(8px)",
+                  transform: { xs: "none", sm: "translateX(8px)" },
                   boxShadow: "0 10px 30px rgba(79, 70, 229, 0.1)",
                 },
               }}
@@ -81,8 +82,8 @@ export default function ContactPage() {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  width: 60,
-                  height: 60,
+                  width: { xs: 50, sm: 60 },
+                  height: { xs: 50, sm: 60 },
                   backgroundColor: "rgba(79, 70, 229, 0.1)",
                   borderRadius: 2,
                   flexShrink: 0,
@@ -90,21 +91,21 @@ export default function ContactPage() {
               >
                 <IconComponent
                   sx={{
-                    fontSize: 32,
+                    fontSize: { xs: 24, sm: 32 },
                     color: link.color,
                   }}
                 />
               </Box>
-              <Box sx={{ flex: 1 }}>
-                <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>
+              <Box sx={{ flex: 1, width: { xs: "100%", sm: "auto" } }}>
+                <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5, fontSize: { xs: "1rem", sm: "1.1rem" } }}>
                   {link.label}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="text.secondary" sx={{ fontSize: { xs: "0.85rem", sm: "0.9rem" }, wordBreak: "break-word" }}>
                   {link.value}
                 </Typography>
               </Box>
-              <Box sx={{ ml: "auto" }}>
-                <Typography variant="caption" sx={{ color: "primary.main", fontWeight: 600 }}>
+              <Box sx={{ ml: { xs: 0, sm: "auto" }, alignSelf: { xs: "flex-end", sm: "auto" } }}>
+                <Typography variant="caption" sx={{ color: "primary.main", fontWeight: 600, fontSize: { xs: "0.9rem", sm: "1rem" } }}>
                   →
                 </Typography>
               </Box>
@@ -115,8 +116,8 @@ export default function ContactPage() {
 
       <Box
         sx={{
-          mt: 10,
-          p: 4,
+          mt: { xs: 6, sm: 10 },
+          p: { xs: 2, sm: 3, md: 4 },
           backgroundColor: "background.paper",
           borderRadius: 1,
           border: "1px solid",
@@ -124,16 +125,16 @@ export default function ContactPage() {
           textAlign: "center",
         }}
       >
-        <Typography variant="h6" sx={{ fontWeight: 700, mb: 2 }}>
+        <Typography variant="h6" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: "1rem", sm: "1.15rem" } }}>
           Or send me a message directly
         </Typography>
-        <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+        <Typography variant="body2" color="text.secondary" sx={{ mb: 3, fontSize: { xs: "0.85rem", sm: "0.9rem" } }}>
           I typically respond within 24 hours. Feel free to reach out about opportunities, collaborations, or just to say hello!
         </Typography>
         <Button
           variant="contained"
           href="mailto:meenakshiojhabook@gmail.com"
-          sx={{ textTransform: "none", fontWeight: 600 }}
+          sx={{ textTransform: "none", fontWeight: 600, width: { xs: "100%", sm: "auto" } }}
         >
           Send Email
         </Button>

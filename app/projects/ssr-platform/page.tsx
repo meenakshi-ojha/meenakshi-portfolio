@@ -130,15 +130,13 @@ export default function SSRPlatformPage() {
       content: (
         <>
           <ul>
-            <li><strong>55% Load Time Improvement:</strong> Time-to-Interactive reduced from 4.2s to 1.9s on 4G networks</li>
-            <li><strong>90+ Lighthouse Score:</strong> Performance score improved from 42/100 to 91/100</li>
-            <li><strong>First Contentful Paint (FCP):</strong> Reduced from 3.0s to 0.8s on average</li>
-            <li><strong>SEO Metrics:</strong> Search engine indexing improved; social sharing metadata now renders with correct previews</li>
-            <li><strong>JavaScript Bundle Reduction:</strong> Client-side JavaScript reduced by 65% through code splitting and compression</li>
-            <li><strong>Mobile User Engagement:</strong> Mobile session duration increased 40%; bounce rate on first load decreased 35%</li>
-            <li><strong>Community Growth:</strong> Social sharing enabled led to 2x growth in organic community traffic</li>
-            <li><strong>Production Stability:</strong> 99.7% uptime with comprehensive error handling and graceful degradation</li>
-            <li><strong>Developer Experience:</strong> HMR enabled fast local development iteration; team velocity increased 20%</li>
+            <li><strong>Significant Performance Improvement:</strong> Time-to-Interactive improved from slow baseline on 4G networks</li>
+            <li><strong>Excellent Performance Metrics:</strong> Lighthouse performance score improved from low baseline (42/100) to consistently high ranges (90+); First Contentful Paint significantly reduced</li>
+            <li><strong>Improved SEO & Discoverability:</strong> Server-side rendering enabled proper search engine indexing and social sharing with correct metadata</li>
+            <li><strong>Optimized Client Payload:</strong> Code splitting and compression significantly reduced client-side JavaScript bundle</li>
+            <li><strong>Better Mobile Experience:</strong> Faster initial load times improved perceived performance and user experience on slower networks</li>
+            <li><strong>Production Reliability:</strong> Comprehensive error handling and graceful degradation patterns ensured consistent availability</li>
+            <li><strong>Developer Velocity:</strong> Hot Module Replacement enabled rapid iteration during local development</li>
           </ul>
         </>
       ),
@@ -148,7 +146,7 @@ export default function SSRPlatformPage() {
       content: (
         <>
           <p>
-            <strong>SSR Transforms User Experience:</strong> The perceived performance improvement (55% faster initial load) had outsized impact on user engagement and retention.
+            <strong>SSR Transforms User Experience:</strong> Performance improvements had significant impact on user engagement and retention.
           </p>
           <p>
             <strong>State Hydration Complexity:</strong> Server and client state must be identical to prevent hydration mismatches. Rigorous testing of Redux state serialization prevented production issues.
@@ -157,7 +155,7 @@ export default function SSRPlatformPage() {
             <strong>Security-First Architecture:</strong> OAuth integration at the server layer (HTTP-only cookies) was more secure than client-side token management, and middleware pattern made it reusable.
           </p>
           <p>
-            <strong>Critical CSS Extraction Pays Dividends:</strong> Inlining above-the-fold CSS reduced First Paint time by 45%. Careful measurement and optimization had measurable business impact.
+            <strong>Critical CSS Extraction Pays Dividends:</strong> Inlining above-the-fold CSS notably improved First Paint time. Careful measurement and optimization had measurable business impact.
           </p>
           <p>
             <strong>Monitoring Essential for SSR:</strong> Server-side rendering has more failure modes (network timeouts, database issues). OpenTelemetry tracing caught issues before they reached users.
@@ -176,11 +174,11 @@ export default function SSRPlatformPage() {
       subtitle="Enhanced SSR performance and internationalization for a global user community platform"
       techStack={["Node.js", "Express.js", "Razzle", "React", "Redux", "Redux-Saga", "GraphQL"]}
       impactStatements={[
-        "55% improvement in Time-to-Interactive (4.2s → 1.9s)",
-        "90+ Lighthouse performance score (vs. 42 previously)",
-        "65% reduction in client-side JavaScript bundle size",
-        "40% increase in mobile session duration",
-        "99.7% production uptime with comprehensive error handling",
+        "55% improvement in Time-to-Interactive for 4G networks",
+        "90+ Lighthouse performance score vs. 42 baseline",
+        "65% reduction in client-side JavaScript through code splitting",
+        "Improved SEO through server-side rendering and metadata",
+        "Enhanced reliability with graceful error handling",
       ]}
       sections={sections}
     />

@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import {
   Container,
   Typography,
@@ -35,8 +36,8 @@ const careerProgression = [
     focus: "Ownership, Leadership & Cross-functional Collaboration",
     highlights: [
       "Took architectural ownership of back-office and onboarding subsystems",
-      "Led code quality initiatives increasing coverage from 10% to 80%+",
-      "Mentored 3+ junior developers through pair programming and code reviews",
+      "Led code quality initiatives significantly increasing test coverage",
+      "Mentored junior developers through pair programming and code reviews",
       "Drove integration between design, backend, and QA teams improving delivery velocity",
     ],
   },
@@ -46,9 +47,9 @@ const careerProgression = [
     focus: "Technical Leadership, Scrum Mastery & Strategic Impact",
     highlights: [
       "Acting as Scrum Master alongside engineering responsibilities, facilitating sprint planning, refinements, and retrospectives",
-      "Architected widget engine framework enabling independent team deployments and 40% code reuse",
-      "Mentored 5+ developers on modern tooling (Vite, Vitest, TypeScript best practices)",
-      "Removed cross-team blockers and improved sprint velocity by 25% through proactive stakeholder coordination",
+      "Architected widget engine framework enabling independent team deployments across multiple product modules",
+      "Mentored multiple developers on modern tooling (Vite, Vitest, TypeScript best practices)",
+      "Removed cross-team blockers and improved sprint predictability and on-time sprint goal achievement",
     ],
   },
 ];
@@ -267,16 +268,35 @@ const experiences = [
   },
 ];
 
+const calculateExperience = () => {
+  const startDate = new Date(2020, 9, 1); // October 2020
+  const today = new Date();
+  
+  let years = today.getFullYear() - startDate.getFullYear();
+  let months = today.getMonth() - startDate.getMonth();
+  
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  
+  if (months === 0) {
+    return `${years}+`;
+  }
+  return `${years}.${months}+`;
+};
+
 export default function ExperiencePage() {
+  const experienceYears = useMemo(() => calculateExperience(), []);
   return (
-    <Container maxWidth="lg" sx={{ py: 8 }}>
+    <Container maxWidth="lg" sx={{ py: { xs: 4, sm: 8 }, px: { xs: 1, sm: 2, md: 3 } }}>
       <Box sx={{ mb: 8 }}>
-        <Typography variant="h2" gutterBottom sx={{ fontWeight: 700, mb: 2 }}>
+        <Typography variant="h2" gutterBottom sx={{ fontWeight: 700, mb: 2, fontSize: { xs: "1.8rem", sm: "2.2rem", md: "2.5rem" } }}>
           Experience
         </Typography>
 
-        <Typography variant="h6" color="text.secondary" sx={{ mb: 6 }}>
-          5.5 years of professional growth across diverse projects at SBS (Sopra Banking Software).
+        <Typography variant="h6" color="text.secondary" sx={{ mb: 6, fontSize: { xs: "0.95rem", sm: "1.05rem" } }}>
+          {experienceYears} years of professional growth across diverse projects at SBS (Sopra Banking Software).
           Progressing from software engineer to senior engineer with expanding leadership, mentorship,
           and Scrum Master responsibilities. Combining technical excellence with cross-functional
           collaboration and quality advocacy.
@@ -284,11 +304,11 @@ export default function ExperiencePage() {
       </Box>
 
       {/* Career Progression Section */}
-      <Box sx={{ mb: 8, p: 4, backgroundColor: "action.hover", borderRadius: 2 }}>
+      <Box sx={{ mb: 8, p: { xs: 2, sm: 3, md: 4 }, backgroundColor: "action.hover", borderRadius: 2 }}>
         <Typography
           variant="h4"
           gutterBottom
-          sx={{ fontWeight: 600, mb: 4, textTransform: "uppercase", fontSize: "1.25rem" }}
+          sx={{ fontWeight: 600, mb: 4, textTransform: "uppercase", fontSize: { xs: "1rem", sm: "1.15rem", md: "1.25rem" } }}
         >
           Career Progression
         </Typography>
@@ -301,11 +321,11 @@ export default function ExperiencePage() {
           }}
         >
           {careerProgression.map((role, index) => (
-            <Paper key={index} elevation={1} sx={{ p: 3, backgroundColor: "background.paper" }}>
-              <Typography variant="h6" sx={{ fontWeight: 600, mb: 0.5 }}>
+            <Paper key={index} elevation={1} sx={{ p: { xs: 2, sm: 2.5, md: 3 }, backgroundColor: "background.paper" }}>
+              <Typography variant="h6" sx={{ fontWeight: 600, mb: 0.5, fontSize: { xs: "0.95rem", sm: "1.05rem" } }}>
                 {role.title}
               </Typography>
-              <Typography variant="caption" color="primary" sx={{ fontWeight: 600, mb: 2, display: "block" }}>
+              <Typography variant="caption" color="primary" sx={{ fontWeight: 600, mb: 2, display: "block", fontSize: { xs: "0.7rem", sm: "0.8rem" } }}>
                 {role.period}
               </Typography>
               <Typography
@@ -314,7 +334,7 @@ export default function ExperiencePage() {
                   fontWeight: 600,
                   color: "primary.main",
                   mb: 2,
-                  fontSize: "0.85rem",
+                  fontSize: { xs: "0.75rem", sm: "0.85rem" },
                   textTransform: "uppercase",
                 }}
               >
@@ -478,7 +498,7 @@ export default function ExperiencePage() {
         }}
       >
         {[
-          { label: "Years Experience", value: "5.5+" },
+          { label: "Years Experience", value: experienceYears },
           { label: "Engineers Mentored", value: "10+" },
           { label: "Code Coverage Achieved", value: "80%+" },
           { label: "Team Velocity Growth", value: "25%" },
