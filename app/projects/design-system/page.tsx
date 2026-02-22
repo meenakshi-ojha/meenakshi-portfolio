@@ -118,13 +118,13 @@ export default function DesignSystemPage() {
       content: (
         <>
           <ul>
-            <li><strong>35% Faster Development:</strong> Teams building new features with component library shipped 35% faster than custom implementations</li>
-            <li><strong>50+ Production Components:</strong> Covered 80% of UI patterns needed across the platform</li>
-            <li><strong>50% Less Testing Overhead:</strong> Shared component tests eliminated redundant test writing across teams</li>
-            <li><strong>WCAG 2.1 AA Compliance:</strong> Every component tested for accessibility; 100% compliance across accessible color contrast, keyboard navigation, and ARIA attributes</li>
-            <li><strong>Reduced Design Inconsistencies:</strong> 90% reduction in design system deviations across applications</li>
-            <li><strong>Faster Onboarding:</strong> New team members productive within 3 days (vs. 2 weeks previously)</li>
-            <li><strong>Component Adoption Rate:</strong> 85% of new UI implementations use library components (vs. 15% previously)</li>
+            <li><strong>Accelerated Feature Development:</strong> Pre-built components with consistent APIs reduced time to integrate UI features</li>
+            <li><strong>50+ Production Components:</strong> Comprehensive library covering core UI patterns across the platform</li>
+            <li><strong>Shared Test Infrastructure:</strong> Centralized component tests with comprehensive coverage reduced duplicate testing efforts across teams</li>
+            <li><strong>WCAG 2.1 AA Compliance:</strong> Every component audited and tested for accessibility standards including keyboard navigation, semantic HTML, and ARIA attributes</li>
+            <li><strong>Design Consistency:</strong> Enforced component reuse significantly reduced UI inconsistencies across product applications</li>
+            <li><strong>Improved Developer Experience:</strong> Well-documented components and Storybook examples accelerated onboarding for UI feature development</li>
+            <li><strong>Widespread Adoption:</strong> Components adopted by the majority of product teams for new feature implementation</li>
           </ul>
         </>
       ),
@@ -137,7 +137,7 @@ export default function DesignSystemPage() {
             <strong>Atomic Design Scales:</strong> Hierarchical component organization worked well initially but required governance as the library grew. Clear contribution guidelines became essential.
           </p>
           <p>
-            <strong>Documentation Drives Adoption:</strong> Beautiful Storybook stories increased adoption 2x versus GitHub README documentation. Visual examples outperform text-based docs.
+            <strong>Documentation Drives Adoption:</strong> Interactive Storybook stories significantly improved component discoverability and adoption. Visual examples outperform text-based documentation.
           </p>
           <p>
             <strong>Accessibility as First-Class Citizen:</strong> Embedding accessibility requirements into component APIs (e.g., required aria-labels) prevented accessibility rework downstream.
@@ -162,11 +162,11 @@ export default function DesignSystemPage() {
       subtitle="Built a reusable component library adopted across multiple product modules with 50+ components"
       techStack={["React", "TypeScript", "CSS Modules", "Storybook", "Jest", "React Testing Library", "Webpack"]}
       impactStatements={[
-        "35% faster feature development for consuming teams",
-        "50+ production-ready components with full type safety",
-        "WCAG 2.1 AA accessibility compliance across all components",
-        "200+ comprehensive test cases covering variant combinations",
-        "90% reduction in design system deviations",
+        "50+ production components adopted across multiple teams",
+        "WCAG 2.1 AA accessibility compliance enforced in all components",
+        "Comprehensive test coverage preventing regressions in component variants",
+        "Significantly reduced design inconsistencies through component reuse",
+        "Streamlined onboarding with clear documentation and Storybook examples",
       ]}
       sections={sections}
       nextProject={{

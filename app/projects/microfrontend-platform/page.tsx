@@ -3,11 +3,11 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 
 export const metadata: Metadata = {
   title: "Microfrontend Banking Platform - Meenakshi Ojha",
-  description: "Case study: Architected enterprise-scale microfrontend enabling 20+ independent teams to deploy independently, reducing deployment time from 45 to 8 minutes.",
-  keywords: "microfrontend architecture, yarn workspaces, redux toolkit, enterprise scale, independent deployments",
+  description: "Case study: Architected microfrontend platform enabling 10 independent teams to deploy without coupling, reducing deployment time from 40 to 12 minutes.",
+  keywords: "microfrontend architecture, yarn workspaces, redux toolkit, independent deployments, team autonomy",
   openGraph: {
     title: "Microfrontend Banking Platform",
-    description: "Learn how I enabled 20+ independent teams to deploy simultaneously with zero merge conflicts using microfrontend architecture.",
+    description: "How I designed a microfrontend architecture enabling 10 independent teams to deploy autonomously without cross-team merge conflicts.",
     type: "article",
     url: "https://meenakshi-portfolio-five.vercel.app/projects/microfrontend-platform",
   },
@@ -20,10 +20,10 @@ export default function MicrofrontendPlatformPage() {
       content: (
         <>
           <p>
-            Designed and implemented a microfrontend architecture for a complex digital banking platform handling 20,000+ daily transactions. The system enables independent teams to develop, test, and deploy features without coupling to a monolithic application.
+            Designed and implemented a microfrontend architecture for a digital banking platform used by multiple internal teams. The system enables independent teams to develop, test, and deploy features without coupling to a monolithic application.
           </p>
           <p>
-            This architecture allowed 20+ engineering teams to work simultaneously on different features with zero merge conflicts, independent deployment pipelines, and decoupled development velocities.
+            This architecture allowed 10 engineering teams to work simultaneously on different features with significantly reduced merge conflicts, independent deployment pipelines, and decoupled development cycles.
           </p>
         </>
       ),
@@ -33,15 +33,15 @@ export default function MicrofrontendPlatformPage() {
       content: (
         <>
           <p>
-            The monolithic frontend structure created critical scaling challenges:
+            The monolithic frontend structure created scaling challenges that limited team autonomy:
           </p>
           <ul>
-            <li><strong>Deployment Bottleneck:</strong> Every deployment required testing and coordination across all 20+ teams; average deployment time was 45 minutes</li>
-            <li><strong>Merge Conflicts:</strong> Frequent conflicts in version control slowed development and introduced regressions</li>
-            <li><strong>Technology Lock-in:</strong> All teams forced to use the same versions of React, Redux, and build tools</li>
-            <li><strong>Team Isolation:</strong> Teams worked on different branches for weeks, then integration issues surfaced late in the cycle</li>
-            <li><strong>Performance Risk:</strong> Changes by any team could impact performance for all users across the platform</li>
-            <li><strong>Dependency Hell:</strong> Shared dependencies created version conflicts and cascading failures</li>
+            <li><strong>Deployment Coordination:</strong> Every deployment required testing and approval from multiple teams, resulting in 40-minute deployment cycles</li>
+            <li><strong>Merge Conflicts:</strong> Frequent conflicts in version control between teams working on parallel features</li>
+            <li><strong>Technology Constraints:</strong> All teams required to use identical versions of React, Redux, and build tools regardless of project needs</li>
+            <li><strong>Late Integration Issues:</strong> Teams integrated their work late in the cycle, causing unexpected conflicts</li>
+            <li><strong>Shared Risk:</strong> Changes in core dependencies could impact features across multiple teams</li>
+            <li><strong>Version Conflicts:</strong> Managing shared dependencies across features created compatibility issues</li>
           </ul>
         </>
       ),
@@ -57,7 +57,7 @@ export default function MicrofrontendPlatformPage() {
             <li>Analyzed trade-offs between Module Federation, Yarn Workspaces, and script-based approaches</li>
             <li>Selected Yarn Workspaces for simpler deployment and version management</li>
             <li>Designed the shell orchestration layer coordinating independent feature modules</li>
-            <li>Established deployment pipeline enabling independent team deployments in 8 minutes (vs. 45 previously)</li>
+            <li>Established deployment pipeline reducing cycle time from approximately 40 minutes to under 15 minutes</li>
           </ul>
           <p>
             <strong>Infrastructure & Tooling:</strong> Built the foundations enabling autonomous team deployment.
@@ -72,9 +72,9 @@ export default function MicrofrontendPlatformPage() {
             <strong>Leadership & Mentorship:</strong> Guided teams through migration and architectural decisions.
           </p>
           <ul>
-            <li>Presented architectural vision to 20+ engineers through RFC process and team sessions</li>
-            <li>Mentored 4 tech leads on microfrontend best practices and debugging strategies</li>
-            <li>Established architectural review process for new feature module integration</li>
+            <li>Presented architectural vision to engineering teams through RFC discussions and architecture sessions</li>
+            <li>Mentored tech leads on microfrontend patterns and integration strategies</li>
+            <li>Established architectural guidelines for feature module integration</li>
           </ul>
         </>
       ),
@@ -126,14 +126,13 @@ export default function MicrofrontendPlatformPage() {
       content: (
         <>
           <ul>
-            <li><strong>20+ Independent Teams:</strong> Teams deploy independently without coupling to monolithic build pipeline</li>
-            <li><strong>Deployment Time:</strong> Reduced from 45 minutes to 8 minutes per team deployment</li>
-            <li><strong>Zero Merge Conflicts:</strong> Yarn Workspaces eliminated cross-team version conflicts</li>
-            <li><strong>20,000+ Daily Transactions:</strong> Platform handles transaction volume with consistent sub-100ms response times per team module</li>
-            <li><strong>Independent Team Velocity:</strong> Each team's sprint velocity no longer blocked by other teams</li>
-            <li><strong>500+ Concurrent Users:</strong> Supports heavy load with proper code splitting and lazy loading</li>
-            <li><strong>WCAG 2.1 AA Compliance:</strong> Accessibility enforced at shell level; all modules inherit baseline compliance</li>
-            <li><strong>Faster Incident Response:</strong> Issues isolated to individual modules; MTTR (mean time to recovery) reduced by 65%</li>
+            <li><strong>10 Autonomous Teams:</strong> Teams deploy features independently without coordinating through a central deployment process</li>
+            <li><strong>Deployment Time:</strong> Reduced from 40 minutes to 12 minutes per team deployment</li>
+            <li><strong>Reduced Merge Conflicts:</strong> Yarn Workspaces and feature isolation significantly reduced cross-team version conflicts</li>
+            <li><strong>Improved Team Velocity:</strong> Teams can iterate on features without waiting for other teams to complete their work</li>
+            <li><strong>Module-Level Isolation:</strong> Issues in one team's module don't impact other features or the overall platform</li>
+            <li><strong>WCAG 2.1 AA Compliance:</strong> Accessibility standards enforced at the shell level for consistency</li>
+            <li><strong>Faster Issue Resolution:</strong> Problems isolated to individual modules, reducing debugging time</li>
           </ul>
         </>
       ),
@@ -149,7 +148,7 @@ export default function MicrofrontendPlatformPage() {
             <strong>Shell Pattern Enables Autonomy:</strong> Clear separation between orchestration (shell) and features allowed teams to innovate with different tech stacks within their modules.
           </p>
           <p>
-            <strong>Contract Testing Prevents Integration Hell:</strong> Validating API contracts between teams caught incompatibilities before deployment, preventing cascading failures.
+            <strong>Contract Testing Prevents Integration Issues:</strong> Validating API contracts between teams caught incompatibilities before deployment.
           </p>
           <p>
             <strong>Performance Monitoring at Scale:</strong> Distributed tracing across modules enabled early detection of performance regressions introduced by any team.
@@ -158,7 +157,7 @@ export default function MicrofrontendPlatformPage() {
             <strong>Governance Without Micromanagement:</strong> Establishing architectural patterns (shell interaction, state management, error handling) provided guardrails without limiting team autonomy.
           </p>
           <p>
-            <strong>Documentation and Tooling Drive Adoption:</strong> A well-designed CLI tool and comprehensive architecture documentation made onboarding new teams frictionless.
+            <strong>Documentation and Tooling Enable Adoption:</strong> A well-designed CLI tool and clear architecture documentation reduced onboarding time for new teams.
           </p>
         </>
       ),
@@ -168,14 +167,14 @@ export default function MicrofrontendPlatformPage() {
   return (
     <CaseStudyLayout
       title="Microfrontend Banking Platform"
-      subtitle="Architected enterprise-scale microfrontend enabling independent deployments across 20+ teams"
+      subtitle="Architected microfrontend architecture enabling 10 teams to deploy autonomously"
       techStack={["React", "TypeScript", "Redux Toolkit", "Redux Loop", "Yarn Workspaces", "Webpack", "Jest"]}
       impactStatements={[
-        "20+ independent engineering teams with zero merge conflicts",
-        "Deployment time reduced from 45 minutes to 8 minutes per team",
-        "Handles 20,000+ daily transactions with consistent sub-100ms response times",
-        "500+ concurrent users without performance degradation",
-        "65% reduction in incident response time (MTTR)",
+        "10 independent teams deploying without cross-team coordination",
+        "Deployment time reduced from 40 minutes to 12 minutes",
+        "Significantly reduced merge conflicts through feature isolation",
+        "Teams can iterate independently without blocking each other",
+        "Faster issue resolution through module-level isolation",
       ]}
       sections={sections}
       nextProject={{

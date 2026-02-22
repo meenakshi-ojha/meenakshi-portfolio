@@ -17,8 +17,8 @@ const projects = [
   {
     id: "widget-engine",
     title: "Dynamic UI Widget Engine Framework",
-    description: "Built a TypeScript-based widget engine enabling 40% code reuse and independent team deployments across 20+ engineers.",
-    impact: "40% code reuse | Independent deployments",
+    description: "Built a TypeScript-based widget engine enabling code reuse and independent team deployments with declarative UI composition.",
+    impact: "Independent deployments | Accelerated development",
     tech: ["TypeScript", "Vite", "Component Architecture"],
     status: "View Case Study",
     slug: "widget-engine",
@@ -26,8 +26,8 @@ const projects = [
   {
     id: "design-system",
     title: "Enterprise Design System & Component Library",
-    description: "Architected scalable component library with comprehensive documentation, reducing development time by 35%.",
-    impact: "35% faster development | 50+ components",
+    description: "Architected scalable component library with comprehensive documentation, enabling faster development and design consistency.",
+    impact: "50+ components | Improved development velocity",
     tech: ["React", "Storybook", "TypeScript"],
     status: "View Case Study",
     slug: "design-system",
@@ -35,8 +35,8 @@ const projects = [
   {
     id: "microfrontend",
     title: "Microfrontend Banking Platform",
-    description: "Designed enterprise microfrontend architecture managing 20k+ daily transactions across 20+ independent teams.",
-    impact: "20+ independent teams | WCAG 2.1 AA compliance",
+    description: "Architected microfrontend platform enabling 10 independent teams to deploy autonomously, reducing deployment time from 40 to 12 minutes.",
+    impact: "10 independent teams | 40→12 min deployments",
     tech: ["React", "Redux Toolkit", "Yarn Workspaces"],
     status: "View Case Study",
     slug: "microfrontend-platform",
@@ -44,7 +44,7 @@ const projects = [
   {
     id: "ssr-platform",
     title: "Server-Side Rendered Community Platform",
-    description: "Implemented server-side rendering platform improving initial load time by 55% and SEO metrics.",
+    description: "Implemented server-side rendering improving Time-to-Interactive and SEO metrics, with 90+ Lighthouse performance score.",
     impact: "55% faster load | 90+ Lighthouse score",
     tech: ["Next.js", "Node.js", "React"],
     status: "View Case Study",
@@ -54,12 +54,12 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <Container maxWidth="md" sx={{ py: 6 }}>
+    <Container maxWidth="md" sx={{ py: { xs: 3, sm: 6 }, px: { xs: 1, sm: 2, md: 3 } }}>
       <Box sx={{ mb: 6 }}>
-        <Typography variant="h3" sx={{ fontWeight: 700, mb: 2 }}>
+        <Typography variant="h3" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: "1.8rem", sm: "2.2rem", md: "2.5rem" } }}>
           Featured Projects
         </Typography>
-        <Typography variant="body1" color="text.secondary">
+        <Typography variant="body1" color="text.secondary" sx={{ fontSize: { xs: "0.95rem", sm: "1.05rem" } }}>
           Deep dives into major initiatives showcasing technical architecture, problem-solving, and impact.
         </Typography>
       </Box>
@@ -76,20 +76,20 @@ export default function ProjectsPage() {
               },
             }}
           >
-            <CardContent sx={{ p: 3.5 }}>
-              <Box sx={{ mb: 2, display: "flex", justifyContent: "space-between", alignItems: "start" }}>
+            <CardContent sx={{ p: { xs: 2, sm: 3, md: 3.5 } }}>
+              <Box sx={{ mb: 2, display: "flex", flexDirection: { xs: "column", sm: "row" }, justifyContent: "space-between", alignItems: "flex-start", gap: 1 }}>
                 <Box>
-                  <Typography variant="h5" sx={{ fontWeight: 700, mb: 0.5 }}>
+                  <Typography variant="h5" sx={{ fontWeight: 700, mb: 0.5, fontSize: { xs: "1.15rem", sm: "1.3rem" } }}>
                     {project.title}
                   </Typography>
-                  <Typography variant="body2" color="primary" sx={{ fontWeight: 600 }}>
+                  <Typography variant="body2" color="primary" sx={{ fontWeight: 600, fontSize: { xs: "0.85rem", sm: "0.95rem" } }}>
                     {project.impact}
                   </Typography>
                 </Box>
-                <Chip label={project.status} size="small" variant="outlined" sx={{ whiteSpace: "nowrap" }} />
+                <Chip label={project.status} size="small" variant="outlined" sx={{ whiteSpace: "nowrap", fontSize: { xs: "0.7rem", sm: "0.85rem" } }} />
               </Box>
 
-              <Typography variant="body2" sx={{ mb: 2.5, lineHeight: 1.7 }}>
+              <Typography variant="body2" sx={{ mb: 2.5, lineHeight: 1.7, fontSize: { xs: "0.9rem", sm: "0.95rem" } }}>
                 {project.description}
               </Typography>
 
@@ -104,6 +104,7 @@ export default function ProjectsPage() {
                       backgroundColor: "rgba(79, 70, 229, 0.1)",
                       color: "primary.main",
                       fontWeight: 600,
+                      fontSize: { xs: "0.7rem", sm: "0.8rem" },
                     }}
                   />
                 ))}
@@ -112,6 +113,7 @@ export default function ProjectsPage() {
               <Button 
                 variant="outlined" 
                 href={`/projects/${project.slug}`}
+                sx={{ fontSize: { xs: "0.85rem", sm: "0.95rem" } }}
               >
                 Read Case Study →
               </Button>
@@ -120,8 +122,8 @@ export default function ProjectsPage() {
         ))}
       </Stack>
 
-      <Box sx={{ mt: 8, p: 3, backgroundColor: "background.paper", borderRadius: 1, textAlign: "center" }}>
-        <Typography variant="body2" color="text.secondary">
+      <Box sx={{ mt: 8, p: { xs: 2, sm: 3 }, backgroundColor: "background.paper", borderRadius: 1, textAlign: "center" }}>
+        <Typography variant="body2" color="text.secondary" sx={{ fontSize: { xs: "0.85rem", sm: "0.95rem" } }}>
           Deep dives into these projects showcase my experience with scalable architecture, leadership, and technical excellence.
           Explore the complete details for each project above.
         </Typography>
