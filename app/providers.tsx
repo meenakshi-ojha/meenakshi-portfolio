@@ -7,7 +7,6 @@ import { ColorModeContext } from "@/theme/ColorModeContext";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [mode, setMode] = useState<"light" | "dark">("dark");
-  const [mounted, setMounted] = useState(false);
 
   // Hydrate color mode from localStorage after mount to prevent hydration mismatch
   useEffect(() => {
@@ -15,7 +14,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
     if (savedMode) {
       setMode(savedMode);
     }
-    setMounted(true);
   }, []);
 
   const colorMode = useMemo(
