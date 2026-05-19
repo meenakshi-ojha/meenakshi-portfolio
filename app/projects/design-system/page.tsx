@@ -104,7 +104,7 @@ export default function DesignSystemPage() {
           <ul>
             <li><strong>Core:</strong> React, TypeScript, CSS Modules</li>
             <li><strong>Documentation:</strong> Storybook with decorators and controls</li>
-            <li><strong>Testing:</strong> Jest, React Testing Library, contract testing with dbs-contract-testing</li>
+            <li><strong>Testing:</strong> Jest, React Testing Library, contract testing</li>
             <li><strong>Build:</strong> Webpack with custom loaders for CSS code splitting</li>
             <li><strong>Version Management:</strong> Semantic versioning, private NPM registry</li>
             <li><strong>Design Integration:</strong> Figma with automated token sync</li>

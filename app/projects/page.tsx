@@ -15,6 +15,24 @@ export const metadata: Metadata = {
 
 const projects = [
   {
+    id: "cx-banking-revamp",
+    title: "CX Banking Platform Revamp",
+    description: "Led complete frontend revamp of legacy banking platform (904 files) to modern Turborepo monorepo. Delivered full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development.",
+    impact: "904-file migration | 5 flows in 20 days | 474+ tests",
+    tech: ["React 19", "TypeScript", "Vite", "Mantine", "Zod", "TanStack Query", "Turborepo"],
+    status: "View Case Study",
+    slug: "cx-banking-revamp",
+  },
+  {
+    id: "ai-agent-training",
+    title: "AI Agent Training System (Ouroboros Method)",
+    description: "Built a persistent knowledge layer enabling AI coding assistants to operate independently on complex codebases. Pioneered cross-tool knowledge transfer with zero productivity loss.",
+    impact: "80% autonomous by week 2 | 12+ hours saved per epic",
+    tech: ["Prompt Engineering", "Knowledge Systems", "TypeScript", "Markdown"],
+    status: "View Case Study",
+    slug: "ai-agent-training",
+  },
+  {
     id: "widget-engine",
     title: "Dynamic UI Widget Engine Framework",
     description: "Built a TypeScript-based widget engine enabling code reuse and independent team deployments with declarative UI composition.",

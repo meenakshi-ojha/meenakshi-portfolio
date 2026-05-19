@@ -44,12 +44,12 @@ const careerProgression = [
   {
     title: "Senior Software Development Engineer 1",
     period: "Jan 2025 – Present",
-    focus: "Technical Leadership, Scrum Mastery & Strategic Impact",
+    focus: "Platform Revamp, AI-Augmented Delivery & Scrum Mastery",
     highlights: [
-      "Acting as Scrum Master alongside engineering responsibilities, facilitating sprint planning, refinements, and retrospectives",
-      "Architected widget engine framework enabling independent team deployments across multiple product modules",
-      "Mentored multiple developers on modern tooling (Vite, Vitest, TypeScript best practices)",
-      "Removed cross-team blockers and improved sprint predictability and on-time sprint goal achievement",
+      "Led full frontend revamp of legacy banking platform (904 files → modern Turborepo monorepo) for a team of 7",
+      "Delivered complete payments module (5 flows, 474+ tests) in 20 days using AI-augmented development",
+      "Pioneered AI knowledge transfer system enabling zero-downtime tool migration across the team",
+      "Acting Scrum Master: improved sprint goal achievement from 75% to 92%",
     ],
   },
 ];
@@ -143,12 +143,12 @@ const experiences = [
     ],
   },
   {
-    role: "Back Office & Onboarding Development",
+    role: "Back Office & Community Platform Development",
     company: "SBS (previously Sopra Banking Software)",
     location: "Noida, Uttar Pradesh",
     period: "2023",
     jobTitle: "Software Development Engineer 2",
-    projectDescription: "Administrative Dashboard & Customer Onboarding System",
+    projectDescription: "Administrative Dashboard, Customer Onboarding & Community Social Platform",
     categories: [
       {
         title: "Architectural Ownership & Large-Scale Development",
@@ -199,12 +199,55 @@ const experiences = [
     ],
   },
   {
+    role: "Daily Banking Application — Feature Development & Technical Leadership",
+    company: "SBS (previously Sopra Banking Software)",
+    location: "Noida, Uttar Pradesh",
+    period: "2024 – 2025",
+    jobTitle: "Software Development Engineer 2 → Senior SDE 1",
+    projectDescription: "Core Banking Customer Application — Payments, Accounts, Cards, Onboarding (Legacy Codebase)",
+    categories: [
+      {
+        title: "Feature Ownership & Cross-functional Delivery",
+        highlights: [
+          "Led frontend development on the core daily banking application serving production customers across multiple regions",
+          "Owned payments, accounts, and onboarding modules — delivering features, fixing production bugs, and coordinating with backend teams",
+          "Built and maintained 2FA authentication library used across all banking applications",
+          "Contributed to shared component library used across 5+ product teams, improving consistency and reuse",
+          "Managed deployment pipelines and sandbox environments for integration testing",
+        ],
+      },
+      {
+        title: "Quality & Mentorship",
+        highlights: [
+          "Drove code quality initiatives across the team — enforcing testing standards, code review practices, and SonarQube thresholds",
+          "Mentored 3+ junior developers on React patterns, state management, and testing strategies",
+          "Resolved cross-team integration blockers with backend and infrastructure teams",
+          "Led design-to-code handoff improvements with UX team, reducing rework cycles",
+        ],
+      },
+    ],
+    tech: [
+      "React",
+      "JavaScript",
+      "Redux",
+      "Redux-Saga",
+      "Jest",
+      "Enzyme",
+      "Webpack",
+      "SCSS",
+      "Node.js",
+      "Cypress",
+      "SonarQube",
+      "CI/CD Pipelines",
+    ],
+  },
+  {
     role: "Core Banking Platform Architecture",
     company: "SBS (previously Sopra Banking Software)",
     location: "Noida, Uttar Pradesh",
-    period: "2024 — Present",
-    jobTitle: "Senior Software Development Engineer 1 + Scrum Master",
-    projectDescription: "Banking Application with Widget Engine & Authentication Framework",
+    period: "2025 – 2026 (Oct–Feb)",
+    jobTitle: "Senior Software Development Engineer 1",
+    projectDescription: "Widget Engine Framework & Authentication Library for Banking Applications",
     categories: [
       {
         title: "Microfrontend & Widget Architecture Leadership",
@@ -217,16 +260,6 @@ const experiences = [
         ],
       },
       {
-        title: "Scrum Master & Team Coordination (Jan 2025 — Present)",
-        highlights: [
-          "Acting as Scrum Master for engineering team alongside technical responsibilities, facilitating daily standups, sprint planning, refinements, and retrospectives",
-          "Removed 12+ cross-team blockers and dependencies, improving sprint velocity by 25% through proactive stakeholder coordination",
-          "Implemented continuous improvement initiatives increasing team's sprint goal achievement rate from 75% to 92%",
-          "Mentored team on Agile best practices, backlog refinement, and estimation techniques",
-          "Facilitated knowledge sharing sessions on modern tooling, architecture patterns, and engineering excellence",
-        ],
-      },
-      {
         title: "Modern Build & Testing Infrastructure",
         highlights: [
           "Implemented Vite for optimized build performance and faster development iteration, reducing build time by 60%",
@@ -234,17 +267,6 @@ const experiences = [
           "Configured CI/CD pipelines with automated testing, linting, and deployment processes",
           "Integrated SonarQube for continuous code quality monitoring and technical debt management",
           "Mentored 5+ team members on Vite/Vitest/TypeScript best practices and performance optimization",
-        ],
-      },
-      {
-        title: "UI/UX Enhancement, Scalability & Quality Advocacy",
-        highlights: [
-          "Reskinned application screens using responsive design patterns and CSS architecture",
-          "Increased test coverage with comprehensive Jest tests ensuring reliability at scale, targeting 85%+ coverage",
-          "Improved application load times and performance through code splitting and lazy loading, reducing FCP by 40%",
-          "Enhanced overall functionality and user experience, resulting in 35% increase in engagement metrics",
-          "Advocated for testing, accessibility, and performance as non-negotiable quality pillars in engineering culture",
-          "Drove pair programming sessions with junior developers to share domain knowledge and improve code quality",
         ],
       },
     ],
@@ -263,7 +285,67 @@ const experiences = [
       "SonarQube",
       "CI/CD Pipelines",
       "Docker",
-      "Yarn",
+    ],
+  },
+  {
+    role: "CX Banking Platform Revamp — Full Frontend Delivery",
+    company: "SBS (previously Sopra Banking Software)",
+    location: "Noida, Uttar Pradesh",
+    period: "2026 (Mar – Present)",
+    jobTitle: "Senior Software Development Engineer 1 + Scrum Master",
+    projectDescription: "Complete revamp of legacy banking CX platform (904 JS files) to modern Turborepo monorepo with React 19, TypeScript, Vite, Mantine, Zod, and TanStack Query",
+    categories: [
+      {
+        title: "Dashboard Feature — First Working Screen (Built End-to-End)",
+        highlights: [
+          "Analyzed entire legacy codebase (904 files, 13 feature areas, 29 components) and produced comprehensive migration strategy",
+          "Set up dev infrastructure from scratch: Vite 8 TypeScript fix, token-based API proxy routing, remote config fallback, Turborepo dependency ordering",
+          "Built first feature end-to-end: JSON-driven widget tree, accounts API integration, products sidebar, latest transactions, quick-actions with business logic",
+          "Established all architectural patterns (screen configuration, specialized widgets, mock handlers, i18n) the team now follows for every new feature",
+        ],
+      },
+      {
+        title: "Payments Epic — 5 User Flows Delivered in 20 Days",
+        highlights: [
+          "Delivered complete payments module end-to-end: dashboard with data tables, multi-step payment flows (5 screens each), internal transfers, and beneficiary management with 2FA",
+          "Architected dynamic form system driven entirely by API-defined field schemas — supporting country-specific validation, conditional fields, and multi-step confirmation flows",
+          "Built shared form infrastructure (5 composable modules) reused across all payment flows, eliminating duplication and enabling rapid feature delivery",
+          "Achieved 474+ unit tests across all components, 10+ merge requests raised and merged, all flows verified against production-grade APIs",
+          "Conducted peer code reviews for 5 teammates, identifying architectural anti-patterns and enforcing schema validation, locale handling, and separation of concerns",
+        ],
+      },
+      {
+        title: "AI-Augmented Development Methodology",
+        highlights: [
+          "Pioneered 'Ouroboros' method: had existing AI assistant generate its own training manual for new tool, achieving zero-downtime knowledge transfer",
+          "Built persistent knowledge layer (steering files, context files, gotchas, session history) enabling AI to operate independently on complex codebase",
+          "Documented methodology as replicable framework — new AI productive within days, 80% implementation without corrections by week 2",
+          "Wrote retrospective identifying 5 categories of mistakes, adding 6 enforced rules preventing recurrence — reduced debugging time by 12+ hours per epic",
+        ],
+      },
+      {
+        title: "Scrum Master & Team Coordination",
+        highlights: [
+          "Acting Scrum Master for 7-engineer team: sprint planning, refinements, retrospectives, daily standups",
+          "Removed 12+ cross-team blockers improving sprint goal achievement from 75% to 92%",
+          "Coordinated delivery across 7-engineer team with systematic task breakdown and progress tracking",
+          "Mentored 5+ developers on Vite, Vitest, TypeScript, TanStack Query, and widget architecture patterns",
+        ],
+      },
+    ],
+    tech: [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Mantine UI",
+      "Zod",
+      "TanStack Query",
+      "Bun",
+      "Turborepo",
+      "Vitest",
+      "Mock Service Worker",
+      "CSS Modules",
+      "CI/CD Pipelines",
     ],
   },
 ];

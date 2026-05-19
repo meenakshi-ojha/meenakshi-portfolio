@@ -26,13 +26,13 @@ export const resumeData = {
   portfolio: "meenakshi-portfolio-five.vercel.app",
 
   summary:
-    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Proven track record of technical leadership, mentoring multiple junior developers across teams, and driving code quality initiatives (80%+ test coverage). Acting Scrum Master managing cross-functional teams of 20+ engineers, removing blockers, and improving sprint predictability and on-time sprint goal completion. Strong focus on performance optimization, accessibility, and test-driven development.`,
+    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.`,
 
   skills: {
-    frontend: "React, TypeScript, JavaScript (ES6+), React Hooks, HTML5, CSS3, Tailwind CSS, Redux, Redux-Saga, Redux-Thunk",
-    testing: "Jest, React Testing Library, Enzyme, Cypress, Vitest, SonarQube, ESLint, Prettier, Mock Service Worker",
-    buildTools: "Vite, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), Yarn Workspaces, CI/CD Pipelines",
-    tools: "Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD",
+    frontend: "React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk",
+    testing: "Vitest, Jest, React Testing Library, Enzyme, Cypress, Mock Service Worker (MSW), SonarQube, ESLint, Prettier",
+    buildTools: "Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines",
+    tools: "Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development",
   },
 
   experience: [
@@ -43,11 +43,12 @@ export const resumeData = {
       startDate: "Jan 2025",
       endDate: "Present",
       highlights: [
-        "Architected widget engine framework using TypeScript and Vite enabling significant code reuse and independent team deployments across multiple product modules",
-        "Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed blockers and improved sprint predictability and sprint goal achievement",
-        "Mentored multiple developers on modern tooling (Vite, Vitest, TypeScript) and performance optimization techniques",
-        "Implemented CI/CD pipelines with automated testing and SonarQube integration; drove quality advocacy achieving 85%+ test coverage targets",
-        "Designed robust authentication library used across banking applications; led architectural reviews with product and infrastructure teams",
+        "Led complete frontend revamp of legacy banking platform (904 JS files, 13 feature areas) to modern Turborepo monorepo with React 19, TypeScript, Vite, Mantine, Zod, and TanStack Query",
+        "Delivered full payments module in 20 days — 5 multi-step user flows, 474+ tests, 10+ merged MRs using AI-augmented development methodology",
+        "Built the first feature (dashboard) end-to-end: JSON-driven widget architecture, token-based API proxy, config fallback system, establishing all patterns for a team of 7 engineers",
+        "Architected shared dynamic form infrastructure (5 composable modules) handling API-driven fields with country-specific validation, reused across all payment flows",
+        "Pioneered AI knowledge transfer methodology enabling seamless tool migration with zero productivity loss; documented as replicable framework for team adoption",
+        "Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed 12+ cross-team blockers improving sprint goal achievement from 75% to 92%",
       ],
     },
     {
@@ -90,5 +91,5 @@ export const resumeData = {
 
   languages: "English (Fluent), Hindi (Native)",
   competencies:
-    "Technical Leadership, Team Mentorship, Scrum Mastery, Code Quality Advocacy, Cross-functional Collaboration, Agile Sprint Management, Performance Optimization, Accessibility, Test-Driven Development (TDD)",
+    "Technical Leadership, Team Mentorship, Scrum Mastery, Code Quality Advocacy, Cross-functional Collaboration, Agile Sprint Management, Performance Optimization, Accessibility, Test-Driven Development (TDD), AI-Augmented Development",
 };
