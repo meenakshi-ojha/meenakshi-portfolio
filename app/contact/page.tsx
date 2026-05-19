@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import LanguageIcon from "@mui/icons-material/Language";
+import BookmarkIcon from "@mui/icons-material/Bookmark";
 
 const contactLinks = [
   {
@@ -25,6 +26,13 @@ const contactLinks = [
     value: "github.com/meenakshi-ojha",
     href: "https://github.com/meenakshi-ojha",
     color: "#333",
+  },
+  {
+    icon: BookmarkIcon,
+    label: "Substack",
+    value: "substack.com/@meenakshiojha",
+    href: "https://substack.com/@meenakshiojha",
+    color: "#FF6719",
   },
   {
     icon: LanguageIcon,
