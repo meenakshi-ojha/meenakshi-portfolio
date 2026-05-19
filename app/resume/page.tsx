@@ -59,7 +59,7 @@ export default function ResumePage() {
             Professional Summary
           </Typography>
           <Typography variant="body2" sx={{ lineHeight: 1.8 }}>
-            Senior Frontend Engineer with {experienceYears} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Proven track record of technical leadership, mentoring multiple junior developers across teams, and driving code quality initiatives (80%+ test coverage). Acting Scrum Master managing cross-functional teams of 20+ engineers, removing blockers, and improving sprint predictability and on-time sprint goal completion. Strong focus on performance optimization, accessibility, and test-driven development.
+            Senior Frontend Engineer with {experienceYears} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.
           </Typography>
         </Box>
 
@@ -73,25 +73,25 @@ export default function ResumePage() {
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Frontend Technologies
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>React, TypeScript, JavaScript (ES6+), React Hooks, HTML5, CSS3, Tailwind CSS, Redux, Redux-Saga, Redux-Thunk</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Testing & Quality
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Jest, React Testing Library, Enzyme, Cypress, Vitest, SonarQube, ESLint, Prettier, Mock Service Worker</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vitest, Jest, React Testing Library, Enzyme, Cypress, Mock Service Worker (MSW), SonarQube, ESLint, Prettier</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Build & Architecture
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vite, Webpack, Babel, Storybook, Microfrontends, Server-Side Rendered Platforms, Yarn Workspaces, CI/CD Pipelines</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Tools & Methodologies
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development</Typography>
             </Box>
           </Box>
         </Box>
@@ -116,11 +116,12 @@ export default function ResumePage() {
               SBS (Sopra Banking Software), Noida, India
             </Typography>
             <Box component="ul" sx={{ pl: { xs: 1.5, sm: 2 }, m: 0, mb: 1 }}>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Architected widget engine framework using TypeScript and Vite enabling independent team deployments across multiple product modules</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed blockers and improved sprint predictability and sprint goal achievement</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Mentored multiple developers on modern tooling (Vite, Vitest, TypeScript) and performance optimization techniques</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Implemented CI/CD pipelines with automated testing and SonarQube integration; drove quality advocacy achieving 85%+ test coverage targets</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Designed robust authentication library used across banking applications; led architectural reviews with product and infrastructure teams</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Led complete frontend revamp of legacy banking platform (904 JS files, 13 feature areas) to modern Turborepo monorepo with React 19, TypeScript, Vite, Mantine, Zod, and TanStack Query</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Delivered full payments module in 20 days — 5 multi-step user flows, 474+ tests, 10+ merged MRs using AI-augmented development methodology</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Built the first feature (dashboard) end-to-end: JSON-driven widget architecture, token-based API proxy, config fallback system, establishing all patterns for a team of 7 engineers</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Architected shared dynamic form infrastructure (5 composable modules) handling API-driven fields with country-specific validation, reused across all payment flows</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Pioneered AI knowledge transfer methodology enabling seamless tool migration with zero productivity loss; documented as replicable framework for team adoption</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed 12+ cross-team blockers improving sprint goal achievement from 75% to 92%</Typography></li>
             </Box>
           </Box>
 
