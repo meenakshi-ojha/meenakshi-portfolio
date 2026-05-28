@@ -26,13 +26,13 @@ export const resumeData = {
   portfolio: "meenakshi-portfolio-five.vercel.app",
 
   summary:
-    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.`,
+    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, pixel-perfect UIs from Figma designs, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.`,
 
   skills: {
     frontend: "React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk",
     testing: "Vitest, Jest, React Testing Library, Enzyme, Cypress, Mock Service Worker (MSW), SonarQube, ESLint, Prettier",
     buildTools: "Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines",
-    tools: "Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development",
+    tools: "Git, GitLab, Figma, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development",
   },
 
   experience: [
@@ -61,7 +61,7 @@ export const resumeData = {
         "Led frontend architecture for backoffice and onboarding systems handling 1000+ daily registrations with 20+ developers; owned subsystem design decisions",
         "Drove quality initiatives significantly increasing code coverage, substantially reducing bugs, and enforcing code duplication standards through systematic refactoring",
         "Mentored junior developers on advanced patterns (custom hooks, performance profiling); improved sprint estimation accuracy",
-        "Resolved 6+ cross-team integration blockers with backend teams; aligned with UX on design-to-code handoff processes improving delivery velocity",
+        "Resolved 6+ cross-team integration blockers with backend teams; established Figma-to-code handoff process delivering pixel-perfect UI implementations, improving design-to-delivery velocity",
         "Integrated Monaco Editor, Mock Service Worker, and Helmet; used custom Webpack configurations for optimized production builds",
       ],
     },

@@ -42,7 +42,7 @@ export default function ResumePage() {
             Senior Frontend Engineer | React | Microfrontends | Scrum Master
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" }, overflowWrap: "break-word", wordBreak: "break-word" }}>
-            Email: meenakshiojhabook@gmail.com | Phone: +91 9654354118 | LinkedIn: linkedin.com/in/meenakshi-ojha | GitHub: github.com/meenakshi-ojha
+            Email: meenakshiojhabook@gmail.com | Phone: +91 9654354118 | LinkedIn: linkedin.com/in/meenakshi-ojha | GitHub: github.com/meenakshi-ojha | Portfolio: meenakshi-portfolio-five.vercel.app
           </Typography>
         </Box>
 
@@ -91,7 +91,7 @@ export default function ResumePage() {
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Tools & Methodologies
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Docker, Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development</Typography>
             </Box>
           </Box>
         </Box>

@@ -95,7 +95,7 @@ export const ResumePDF = () => (
         <Text style={styles.name}>{resumeData.name}</Text>
         <Text style={styles.title}>{resumeData.title}</Text>
         <Text style={styles.contactInfo}>
-          {resumeData.email} | {resumeData.phone} | {resumeData.linkedin} | {resumeData.github}
+          {resumeData.email} | {resumeData.phone} | {resumeData.linkedin} | {resumeData.github} | {resumeData.portfolio}
         </Text>
       </View>
 

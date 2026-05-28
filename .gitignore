@@ -24,3 +24,5 @@ build
 
 # typescript
 *.tsbuildinfo
+.secrets.json
+coverletters
