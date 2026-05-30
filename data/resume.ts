@@ -26,10 +26,10 @@ export const resumeData = {
   portfolio: "meenakshi-portfolio-five.vercel.app",
 
   summary:
-    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking applications, pixel-perfect UIs from Figma designs, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.`,
+    `Senior Frontend Engineer with ${calculateExperience()} years of expertise building scalable banking & financial applications, pixel-perfect UIs from Figma designs, data visualization dashboards, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.`,
 
   skills: {
-    frontend: "React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk",
+    frontend: "React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Mantine Charts, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk",
     testing: "Vitest, Jest, React Testing Library, Enzyme, Cypress, Playwright, Mock Service Worker (MSW), SonarQube, ESLint, Prettier",
     buildTools: "Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines",
     tools: "Git, GitLab, Figma, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development",
@@ -45,7 +45,7 @@ export const resumeData = {
       highlights: [
         "Led complete frontend revamp of legacy banking platform (904 JS files, 13 feature areas) to modern Turborepo monorepo with React 19, TypeScript, Vite, Mantine, Zod, and TanStack Query",
         "Delivered full payments module in 20 days — 5 multi-step user flows, 474+ tests, 10+ merged MRs using AI-augmented development methodology",
-        "Built the first feature (dashboard) end-to-end: JSON-driven widget architecture, token-based API proxy, config fallback system, establishing all patterns for a team of 7 engineers",
+        "Built the first feature (dashboard) end-to-end: JSON-driven widget architecture with data visualization (donut charts, financial exposure breakdowns), token-based API proxy, config fallback system, establishing all patterns for a team of 7 engineers",
         "Architected shared dynamic form infrastructure (5 composable modules) handling API-driven fields with country-specific validation, reused across all payment flows",
         "Pioneered AI knowledge transfer methodology enabling seamless tool migration with zero productivity loss; documented as replicable framework for team adoption",
         "Acting Scrum Master: facilitated sprint planning, refinements, retrospectives; removed 12+ cross-team blockers improving sprint goal achievement from 75% to 92%",
