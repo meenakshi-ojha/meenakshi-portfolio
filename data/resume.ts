@@ -30,7 +30,7 @@ export const resumeData = {
 
   skills: {
     frontend: "React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk",
-    testing: "Vitest, Jest, React Testing Library, Enzyme, Cypress, Mock Service Worker (MSW), SonarQube, ESLint, Prettier",
+    testing: "Vitest, Jest, React Testing Library, Enzyme, Cypress, Playwright, Mock Service Worker (MSW), SonarQube, ESLint, Prettier",
     buildTools: "Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines",
     tools: "Git, GitLab, Figma, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development",
   },
