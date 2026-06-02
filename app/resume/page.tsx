@@ -39,7 +39,7 @@ export default function ResumePage() {
             MEENAKSHI OJHA
           </Typography>
           <Typography variant="subtitle1" color="primary" sx={{ fontWeight: 600, mb: 1, fontSize: { xs: "0.95rem", sm: "1.15rem" } }}>
-            Senior Frontend Engineer | React | Microfrontends | Scrum Master
+            Senior Frontend Engineer · React · Microfrontends · Scrum Master
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" }, overflowWrap: "break-word", wordBreak: "break-word" }}>
             Email: meenakshiojhabook@gmail.com | Phone: +91 9654354118 | LinkedIn: linkedin.com/in/meenakshi-ojha | GitHub: github.com/meenakshi-ojha | Portfolio: meenakshi-portfolio-five.vercel.app
@@ -59,7 +59,7 @@ export default function ResumePage() {
             Professional Summary
           </Typography>
           <Typography variant="body2" sx={{ lineHeight: 1.8 }}>
-            Senior Frontend Engineer with {experienceYears} years of expertise building scalable banking applications, component libraries, and microfrontend architectures using React, TypeScript, and modern tooling. Led complete frontend revamp of a legacy banking platform (904-file codebase) to a modern Turborepo monorepo, delivering the full payments module (5 user flows, 474+ tests) in 20 days using AI-augmented development. Acting Scrum Master managing cross-functional teams of 20+ engineers. Strong focus on performance optimization, accessibility, and test-driven development.
+            Senior Frontend Engineer with {experienceYears} years building scalable React, TypeScript, and microfrontend applications across banking and fintech. Architected the frontend revamp of a legacy 904-file banking platform into a modern Turborepo monorepo, delivering a full payments module (5 multi-step flows, 474+ tests, 10+ merged MRs) in 20 days through AI-augmented development. Specialize in component libraries, data visualization dashboards, REST API integration, responsive single-page applications, and pixel-perfect UI delivery from Figma, with strong focus on Web Vitals performance, WCAG accessibility, and test-driven development. Acting Scrum Master leading cross-functional teams of 20+ engineers, raising sprint goal achievement from 75% to 92%.
           </Typography>
         </Box>
 
@@ -73,25 +73,25 @@ export default function ResumePage() {
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Frontend Technologies
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>React 19, TypeScript, JavaScript (ES6+), React Hooks, Mantine UI, Zod, TanStack Query, HTML5, CSS3, CSS Modules, Redux, Redux-Saga, Redux-Thunk</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>React 19, React Hooks, TypeScript, JavaScript (ES6+), Material UI (MUI), Mantine UI, Mantine Charts, Redux, Redux-Saga, Redux-Thunk, TanStack Query, Zod, HTML5, CSS3, CSS Modules, Responsive Design, Single Page Applications (SPA), REST APIs</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Testing & Quality
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vitest, Jest, React Testing Library, Enzyme, Cypress, Mock Service Worker (MSW), SonarQube, ESLint, Prettier</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vitest, Jest, React Testing Library, Enzyme, Cypress, Playwright, Mock Service Worker (MSW), SonarQube, ESLint, Prettier, Test-Driven Development (TDD)</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Build & Architecture
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Vite, Turborepo, Bun, Webpack, Babel, Storybook, Microfrontends, Razzle (SSR), CI/CD Pipelines</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Frontend Architecture, Microfrontends, Vite, Turborepo, Bun, Webpack, Babel, Storybook, Razzle (SSR), CI/CD Pipelines, Web Vitals, Lighthouse</Typography>
             </Box>
             <Box>
               <Typography variant="caption" sx={{ fontWeight: 700, display: "block", mb: 0.5, fontSize: { xs: "0.7rem", sm: "0.75rem" } }}>
                 Tools & Methodologies
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Design Reviews, Mentorship, TDD, AI-Augmented Development</Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Git, GitLab, Figma, Docker, Kubernetes (K8s), Node.js, Agile, Scrum, Sprint Planning, Code Reviews, WCAG / WAI-ARIA Accessibility, Cross-browser Compatibility, Mentorship</Typography>
             </Box>
           </Box>
         </Box>
@@ -117,7 +117,7 @@ export default function ResumePage() {
             </Typography>
             <Box component="ul" sx={{ pl: { xs: 1.5, sm: 2 }, m: 0, mb: 1 }}>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Led complete frontend revamp of legacy banking platform (904 JS files, 13 feature areas) to modern Turborepo monorepo with React 19, TypeScript, Vite, Mantine, Zod, and TanStack Query</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Delivered full payments module in 20 days — 5 multi-step user flows, 474+ tests, 10+ merged MRs using AI-augmented development methodology</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Delivered full payments module in 20 days: 5 multi-step user flows, 474+ tests, 10+ merged MRs using AI-augmented development methodology</Typography></li>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Built the first feature (dashboard) end-to-end: JSON-driven widget architecture, token-based API proxy, config fallback system, establishing all patterns for a team of 7 engineers</Typography></li>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Architected shared dynamic form infrastructure (5 composable modules) handling API-driven fields with country-specific validation, reused across all payment flows</Typography></li>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Pioneered AI knowledge transfer methodology enabling seamless tool migration with zero productivity loss; documented as replicable framework for team adoption</Typography></li>
@@ -140,8 +140,8 @@ export default function ResumePage() {
             </Typography>
             <Box component="ul" sx={{ pl: { xs: 1.5, sm: 2 }, m: 0, mb: 1 }}>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Led frontend architecture for backoffice and onboarding systems handling 1000+ daily registrations with 20+ developers; owned subsystem design decisions</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Drove quality initiatives significantly increasing code coverage, reducing bugs, and enforcing code duplication standards through systematic refactoring</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Mentored junior developers on advanced patterns (custom hooks, performance profiling); improved sprint estimation accuracy</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Authored 181 merged MRs across 8 banking repos: 66 feature deliveries, 36 production defect fixes, and 65 refactors driving systematic tech-debt reduction and code-duplication enforcement</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Guided junior developers on advanced React patterns (custom hooks, performance profiling, memoization); improved sprint estimation accuracy across the team</Typography></li>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Resolved 6+ cross-team integration blockers with backend teams; aligned with UX on design-to-code handoff processes improving delivery velocity</Typography></li>
               <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Integrated Monaco Editor, Mock Service Worker, and Helmet; used custom Webpack configurations for optimized production builds</Typography></li>
             </Box>
@@ -161,11 +161,9 @@ export default function ResumePage() {
               SBS (Sopra Banking Software), Noida, India
             </Typography>
             <Box component="ul" sx={{ pl: { xs: 1.5, sm: 2 }, m: 0 }}>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Developed 20+ reusable React components for component library with 100+ Jest tests; improved development efficiency across multiple teams through component reuse</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Built Server-Side Rendered community platform (4 major versions) with Razzle and Redux-Saga; substantially increased unit test coverage and substantially reduced recurring production bugs</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Implemented comprehensive E2E testing with Cypress, i18n support with PhraseApp, and SONAR analysis driving code quality improvements</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Mentored 2+ developers on testing strategies and Server-Side Rendered platform best practices; resolved 8+ integration blockers and facilitated sprint planning sessions</Typography></li>
-              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Established quality gates and code review standards across teams, improving overall testing culture and technical debt management</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Developed 20+ reusable React components with 100+ Jest tests for the SBS Design System component library, adopted across multiple product teams</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Raised community frontend unit test coverage to 70% (from ~55%) across 4 successive coverage milestones; authored 114 merged MRs spanning the component library, the server-side rendered community platform (Razzle + Redux-Saga, 4 major versions), and quality gates</Typography></li>
+              <li><Typography variant="body2" sx={{ fontSize: { xs: "0.8rem", sm: "0.875rem" }, lineHeight: 1.6 }}>Implemented end-to-end testing with Cypress, internationalization with PhraseApp (i18n), and SonarQube static analysis driving code quality improvements; coached peers on testing strategy and SSR best practices</Typography></li>
             </Box>
           </Box>
         </Box>
