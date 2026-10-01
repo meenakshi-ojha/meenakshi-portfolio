@@ -37,8 +37,8 @@ const contactLinks = [
   {
     icon: LanguageIcon,
     label: "Portfolio",
-    value: "meenakshi-portfolio-five.vercel.app",
-    href: "https://meenakshi-portfolio-five.vercel.app",
+    value: "meenakshiojha.com",
+    href: "https://meenakshiojha.com",
     color: "#4F46E5",
   },
 ];
@@ -48,7 +48,7 @@ export default function ContactPage() {
     <Container maxWidth="md" sx={{ py: { xs: 6, sm: 12 }, px: { xs: 1, sm: 2, md: 3 } }}>
       <Box sx={{ mb: { xs: 4, sm: 8 }, textAlign: "center" }}>
         <Typography variant="h3" sx={{ fontWeight: 700, mb: 2, fontSize: { xs: "1.8rem", sm: "2.2rem", md: "2.5rem" } }}>
-          Let's Connect
+          Let&apos;s Connect
         </Typography>
         <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 450, mx: "auto", lineHeight: 1.8, fontSize: { xs: "0.95rem", sm: "1rem" } }}>
           Open to discussing frontend architecture, microfrontends, leadership opportunities, or just chatting about React and TypeScript.

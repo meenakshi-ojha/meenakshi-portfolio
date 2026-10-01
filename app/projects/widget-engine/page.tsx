@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Dynamic UI Widget Engine Framework",
     description: "Learn how I architected a JSON-driven UI framework enabling scalable, configuration-based rendering.",
     type: "article",
-    url: "https://meenakshi-portfolio-five.vercel.app/projects/widget-engine",
+    url: "https://meenakshiojha.com/projects/widget-engine",
   },
 };
 
@@ -79,7 +79,7 @@ export default function WidgetEnginePage() {
             <strong>Provider Pattern:</strong> Built configurable data providers (Axios-based for REST, mock providers for development, real-time subscription handlers) to decouple data fetching from UI rendering concerns.
           </p>
           <p>
-            <strong>Performance Optimization:</strong> Leveraged React 19's compiler plugin and Vite's optimizations for sub-second component instantiation, even with complex nested configurations.
+            <strong>Performance Optimization:</strong> Leveraged React 19&apos;s compiler plugin and Vite&apos;s optimizations for sub-second component instantiation, even with complex nested configurations.
           </p>
           <p>
             <strong>Build Pipeline:</strong> Implemented Vite library build with code-splitting and external dependency management, reducing bundle size by 45% compared to monolithic builds.
@@ -135,7 +135,7 @@ export default function WidgetEnginePage() {
             <strong>Documentation Matters:</strong> A comprehensive showcase application and architecture documentation significantly increased adoption across teams.
           </p>
           <p>
-            <strong>Performance Requires Discipline:</strong> React 19's compiler helped, but intentional memoization strategies and bundling optimization were critical for efficient widget render times at scale.
+            <strong>Performance Requires Discipline:</strong> React 19&apos;s compiler helped, but intentional memoization strategies and bundling optimization were critical for efficient widget render times at scale.
           </p>
         </>
       ),

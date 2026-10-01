@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Projects - Meenakshi Ojha",
     description: "Featured projects including Widget Engine Framework, Design System, Microfrontend Platform, and SSR Platform.",
     type: "website",
-    url: "https://meenakshi-portfolio-five.vercel.app/projects",
+    url: "https://meenakshiojha.com/projects",
   },
 };
 
@@ -67,6 +67,15 @@ const projects = [
     tech: ["Next.js", "Node.js", "React"],
     status: "View Case Study",
     slug: "ssr-platform",
+  },
+  {
+    id: "tradeview-lite",
+    title: "TradeView Lite - Stock Watchlist Dashboard",
+    description: "Solo, public project exploring Next.js 16's App Router/caching model, Apollo Client v4, and TanStack Table v9 through a real GraphQL BFF wrapping a live market-data API.",
+    impact: "Real public repo | GraphQL BFF + Next.js 16 | CI with e2e + a11y audits",
+    tech: ["Next.js 16", "GraphQL", "Apollo Server/Client", "Zustand", "TanStack Table", "visx"],
+    status: "View Case Study",
+    slug: "tradeview-lite",
   },
 ];
 

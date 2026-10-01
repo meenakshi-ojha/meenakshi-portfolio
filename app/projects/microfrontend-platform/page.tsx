@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Microfrontend Banking Platform",
     description: "How I designed a microfrontend architecture enabling 10 independent teams to deploy autonomously without cross-team merge conflicts.",
     type: "article",
-    url: "https://meenakshi-portfolio-five.vercel.app/projects/microfrontend-platform",
+    url: "https://meenakshiojha.com/projects/microfrontend-platform",
   },
 };
 
@@ -130,7 +130,7 @@ export default function MicrofrontendPlatformPage() {
             <li><strong>Deployment Time:</strong> Reduced from 40 minutes to 12 minutes per team deployment</li>
             <li><strong>Reduced Merge Conflicts:</strong> Yarn Workspaces and feature isolation significantly reduced cross-team version conflicts</li>
             <li><strong>Improved Team Velocity:</strong> Teams can iterate on features without waiting for other teams to complete their work</li>
-            <li><strong>Module-Level Isolation:</strong> Issues in one team's module don't impact other features or the overall platform</li>
+            <li><strong>Module-Level Isolation:</strong> Issues in one team&apos;s module don&apos;t impact other features or the overall platform</li>
             <li><strong>WCAG 2.1 AA Compliance:</strong> Accessibility standards enforced at the shell level for consistency</li>
             <li><strong>Faster Issue Resolution:</strong> Problems isolated to individual modules, reducing debugging time</li>
           </ul>

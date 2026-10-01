@@ -1,29 +1,43 @@
-import { Document, Page, Text, View, StyleSheet } from "@react-pdf/renderer";
-import { resumeData } from "@/data/resume";
+import { Document, Page, Text, View, StyleSheet, Link } from "@react-pdf/renderer";
+import { resumeData, splitBoldSegments, getContactLinks } from "@/data/resume";
+import "@/components/pdfFonts";
+
+const contactLinks = getContactLinks(resumeData);
+
+const renderFormatted = (text: string) =>
+  splitBoldSegments(text).map((seg, i) =>
+    seg.bold ? (
+      <Text key={i} style={{ fontWeight: "bold" }}>
+        {seg.text}
+      </Text>
+    ) : (
+      seg.text
+    )
+  );
 
 const styles = StyleSheet.create({
   page: {
-    padding: 40,
-    fontSize: 10,
-    fontFamily: "Helvetica",
-    lineHeight: 1.4,
+    padding: 7,
+    fontSize: 9.3,
+    fontFamily: "Inter",
+    lineHeight: 1.2,
   },
   header: {
-    marginBottom: 12,
+    marginBottom: 8,
     textAlign: "center",
     borderBottomWidth: 1,
     borderBottomColor: "#000",
     paddingBottom: 8,
   },
   name: {
-    fontSize: 16,
+    fontSize: 17,
     fontWeight: "bold",
-    marginBottom: 2,
+    marginBottom: 5,
   },
   title: {
     fontSize: 11,
     fontWeight: "bold",
-    marginBottom: 4,
+    marginBottom: 6,
     color: "#1976d2",
   },
   contactInfo: {
@@ -31,15 +45,15 @@ const styles = StyleSheet.create({
     marginBottom: 1,
   },
   section: {
-    marginBottom: 10,
+    marginBottom: 4,
   },
   sectionHeading: {
     fontSize: 11,
     fontWeight: "bold",
-    marginBottom: 4,
+    marginBottom: 2,
     borderBottomWidth: 0.5,
     borderBottomColor: "#666",
-    paddingBottom: 2,
+    paddingBottom: 1,
     textTransform: "uppercase",
   },
   subsectionHeading: {
@@ -60,15 +74,15 @@ const styles = StyleSheet.create({
   },
   bulletList: {
     marginLeft: 8,
-    marginBottom: 2,
+    marginBottom: 0.5,
   },
   bulletPoint: {
     fontSize: 9,
-    marginBottom: 2,
-    lineHeight: 1.3,
+    marginBottom: 1,
+    lineHeight: 1.15,
   },
   skillCategory: {
-    marginBottom: 3,
+    marginBottom: 2,
   },
   skillCategoryLabel: {
     fontSize: 9,
@@ -77,11 +91,11 @@ const styles = StyleSheet.create({
   },
   skillText: {
     fontSize: 9,
-    lineHeight: 1.3,
+    lineHeight: 1.15,
   },
   summaryText: {
     fontSize: 9,
-    lineHeight: 1.4,
+    lineHeight: 1.25,
     textAlign: "justify",
     marginBottom: 1,
   },
@@ -94,15 +108,22 @@ export const ResumePDF = () => (
       <View style={styles.header}>
         <Text style={styles.name}>{resumeData.name}</Text>
         <Text style={styles.title}>{resumeData.title}</Text>
-        <Text style={styles.contactInfo}>
-          {resumeData.email} | {resumeData.phone} | {resumeData.linkedin} | {resumeData.github} | {resumeData.portfolio}
-        </Text>
+        <View style={{ flexDirection: "row", flexWrap: "wrap", justifyContent: "center" }}>
+          {contactLinks.map((link, i) => (
+            <Text key={link.href} style={styles.contactInfo}>
+              <Link src={link.href} style={{ color: "#1976d2" }}>
+                {link.label}
+              </Link>
+              {i < contactLinks.length - 1 ? " | " : ""}
+            </Text>
+          ))}
+        </View>
       </View>
 
       {/* Professional Summary */}
       <View style={styles.section}>
         <Text style={styles.sectionHeading}>Professional Summary</Text>
-        <Text style={styles.summaryText}>{resumeData.summary}</Text>
+        <Text style={styles.summaryText}>{renderFormatted(resumeData.summary)}</Text>
       </View>
 
       {/* Core Skills */}
@@ -122,7 +143,7 @@ export const ResumePDF = () => (
       <View style={styles.section}>
         <Text style={styles.sectionHeading}>Professional Experience</Text>
         {resumeData.experience.map((job, index) => (
-          <View key={index} style={{ marginBottom: 8 }}>
+          <View key={index} style={{ marginBottom: 4 }}>
             <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
               <Text style={styles.subsectionHeading}>{job.role}</Text>
               <Text style={styles.dateRange}>
@@ -135,7 +156,7 @@ export const ResumePDF = () => (
             {job.highlights.map((highlight, i) => (
               <View key={i} style={styles.bulletList}>
                 <Text style={styles.bulletPoint}>
-                  {"\u2022"} {highlight}
+                  {"\u2022"} {renderFormatted(highlight)}
                 </Text>
               </View>
             ))}

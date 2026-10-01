@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Enterprise Design System & Component Library",
     description: "Learn how I engineered a design system adopted across multiple product teams with 50+ production-ready components.",
     type: "article",
-    url: "https://meenakshi-portfolio-five.vercel.app/projects/design-system",
+    url: "https://meenakshiojha.com/projects/design-system",
   },
 };
 
@@ -143,13 +143,13 @@ export default function DesignSystemPage() {
             <strong>Accessibility as First-Class Citizen:</strong> Embedding accessibility requirements into component APIs (e.g., required aria-labels) prevented accessibility rework downstream.
           </p>
           <p>
-            <strong>Version Management Matters:</strong> Clear semantic versioning and deprecation policies prevented "dependency hell" when updating components.
+            <strong>Version Management Matters:</strong> Clear semantic versioning and deprecation policies prevented &quot;dependency hell&quot; when updating components.
           </p>
           <p>
             <strong>Design-to-Code Handoff:</strong> Automatic Figma token sync reduced design-to-implementation drift and improved designer-engineer collaboration.
           </p>
           <p>
-            <strong>Testing Component Variants:</strong> Contract testing each component's state combinations caught more bugs than traditional unit tests, improving production stability.
+            <strong>Testing Component Variants:</strong> Contract testing each component&apos;s state combinations caught more bugs than traditional unit tests, improving production stability.
           </p>
         </>
       ),

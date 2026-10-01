@@ -24,7 +24,7 @@ export default function Home() {
             letterSpacing: { xs: '-0.5px', sm: '-1px' },
           }}
         >
-          Hi, I'm Meenakshi Ojha
+          Hi, I&apos;m Meenakshi Ojha
         </Typography>
 
         <Typography

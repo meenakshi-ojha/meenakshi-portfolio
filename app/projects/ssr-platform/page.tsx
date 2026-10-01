@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Server-Side Rendered Community Platform",
     description: "Learn how I enhanced SSR performance achieving 55% faster load times and improved SEO metrics for a community platform.",
     type: "article",
-    url: "https://meenakshi-portfolio-five.vercel.app/projects/ssr-platform",
+    url: "https://meenakshiojha.com/projects/ssr-platform",
   },
 };
 
@@ -36,12 +36,12 @@ export default function SSRPlatformPage() {
             Client-side rendering created significant limitations:
           </p>
           <ul>
-            <li><strong>Poor SEO:</strong> Search engines couldn't index community content; social media sharing showed blank previews</li>
+            <li><strong>Poor SEO:</strong> Search engines couldn&apos;t index community content; social media sharing showed blank previews</li>
             <li><strong>Slow Initial Load:</strong> Time-to-Interactive was 4.2 seconds on 4G networks (vs. industry standard of ~2 seconds)</li>
             <li><strong>JavaScript Bundle Bloat:</strong> Client received 450KB of JavaScript; slow devices (3G networks) waited 8+ seconds before interactive</li>
             <li><strong>SEO Metrics:</strong> Lighthouse performance score was 42/100; First Contentful Paint (FCP) was 3.0s</li>
             <li><strong>Mobile User Experience:</strong> High bounce rate on mobile due to slow initial render</li>
-            <li><strong>User Engagement:</strong> Community content wasn't shared socially due to poor social preview metadata</li>
+            <li><strong>User Engagement:</strong> Community content wasn&apos;t shared socially due to poor social preview metadata</li>
           </ul>
         </>
       ),
@@ -181,6 +181,10 @@ export default function SSRPlatformPage() {
         "Enhanced reliability with graceful error handling",
       ]}
       sections={sections}
+      nextProject={{
+        title: "TradeView Lite",
+        slug: "tradeview-lite",
+      }}
     />
   );
 }
